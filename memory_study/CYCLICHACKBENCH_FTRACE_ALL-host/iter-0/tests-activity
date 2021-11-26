@@ -1,0 +1,19 @@
+1635428044 run-kvm: Start
+1635428044 run-kvm: Booting VMs
+1635428100 run-kvm: VM opensusetumbleweed-1 IP 192.168.122.73
+1635428110 run-kvm: VM opensusetumbleweed-2 IP 192.168.122.240
+1635428110 run-kvm: VM opensusetumbleweed-3 IP 192.168.122.194
+1635428116 run-kvm: run-mmtests in VMs start
+1635428116 run-kvm: begin monitor
+1635428123 run-kvm: state "mmtests_start"
+1635428123 run-kvm: sending token "mmtests_start"
+1635428142 run-kvm: state "test_do"
+1635428145 run-kvm: sending token "test_do"
+1635428780 run-kvm: state "test_done"
+1635428780 run-kvm: sending token "test_done"
+1635428780 run-kvm: state "mmtests_end"
+1635428780 run-kvm: sending token "mmtests_end"
+1635428928 run-kvm: run-mmtests in VMs end
+1635428930 run-kvm: Shutoff VMs
+1635428951 run-kvm: Iteration 0 end
+1635428951 run-kvm: End

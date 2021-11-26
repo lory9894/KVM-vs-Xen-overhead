@@ -1,0 +1,19 @@
+1635360290 run-kvm: Start
+1635360290 run-kvm: Booting VMs
+1635360393 run-kvm: VM clone-1 IP 192.168.122.11
+1635360393 run-kvm: VM clone-2 IP 192.168.122.12
+1635360394 run-kvm: VM clone-3 IP 192.168.122.13
+1635360400 run-kvm: run-mmtests in VMs start
+1635360400 run-kvm: begin monitor
+1635360406 run-kvm: state "mmtests_start"
+1635360407 run-kvm: sending token "mmtests_start"
+1635360433 run-kvm: state "test_do"
+1635360437 run-kvm: sending token "test_do"
+1635361066 run-kvm: state "test_done"
+1635361067 run-kvm: sending token "test_done"
+1635361068 run-kvm: state "mmtests_end"
+1635361068 run-kvm: sending token "mmtests_end"
+1635361106 run-kvm: run-mmtests in VMs end
+1635361108 run-kvm: Shutoff VMs
+1635361134 run-kvm: Iteration 0 end
+1635361134 run-kvm: End
