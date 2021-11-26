@@ -1,0 +1,28 @@
+warmup done, zeroing stats
+Latency percentiles (usec) runtime 10 (s) (53 total samples)
+	50.0th: 55 (30 samples)
+	75.0th: 58 (10 samples)
+	90.0th: 92 (8 samples)
+	95.0th: 144 (3 samples)
+	*99.0th: 183 (2 samples)
+	99.5th: 183 (0 samples)
+	99.9th: 183 (0 samples)
+	min=39, max=183
+Latency percentiles (usec) runtime 20 (s) (159 total samples)
+	50.0th: 55 (84 samples)
+	75.0th: 71 (36 samples)
+	90.0th: 91 (25 samples)
+	95.0th: 109 (8 samples)
+	*99.0th: 180 (5 samples)
+	99.5th: 183 (1 samples)
+	99.9th: 183 (0 samples)
+	min=39, max=183
+Latency percentiles (usec) runtime 30 (s) (267 total samples)
+	50.0th: 55 (165 samples)
+	75.0th: 59 (40 samples)
+	90.0th: 86 (37 samples)
+	95.0th: 94 (12 samples)
+	*99.0th: 180 (11 samples)
+	99.5th: 183 (1 samples)
+	99.9th: 201 (1 samples)
+	min=39, max=201

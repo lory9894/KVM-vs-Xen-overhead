@@ -1,0 +1,10 @@
+o inactive nr:3 controllers:pids : /sys/fs/cgroup/user.slice/user-0.slice/session-10.scope/cgroup.procs
+o inactive nr:3 controllers:pids : /sys/fs/cgroup/user.slice/user-0.slice/session-9.scope/cgroup.procs
+o inactive nr:3 controllers:pids : /sys/fs/cgroup/user.slice/user-0.slice/session-6.scope/cgroup.procs
+o inactive nr:3 controllers:pids : /sys/fs/cgroup/user.slice/user-0.slice/session-11.scope/cgroup.procs
+o inactive nr:2 controllers:pids : /sys/fs/cgroup/user.slice/user-0.slice/session-3.scope/cgroup.procs
+o inactive nr:3 controllers:pids : /sys/fs/cgroup/user.slice/user-0.slice/session-7.scope/cgroup.procs
+o inactive nr:3 controllers:pids : /sys/fs/cgroup/user.slice/user-0.slice/session-4.scope/cgroup.procs
+o inactive nr:3 controllers:pids : /sys/fs/cgroup/user.slice/user-0.slice/session-8.scope/cgroup.procs
+o inactive nr:2 controllers:pids : /sys/fs/cgroup/user.slice/user-0.slice/user@0.service/init.scope/cgroup.procs
+o inactive nr:3 controllers:pids : /sys/fs/cgroup/user.slice/user-0.slice/session-5.scope/cgroup.procs

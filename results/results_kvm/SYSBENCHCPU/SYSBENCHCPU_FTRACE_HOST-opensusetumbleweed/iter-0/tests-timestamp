@@ -1,0 +1,6 @@
+start :: 1632131223
+test begin :: sysbenchcpu 1632131237
+test end :: sysbenchcpu 1632131715
+time :: sysbenchcpu 1102.11 user 0.62 system 476.23 elapsed
+finish :: 1632131715
+status :: 0

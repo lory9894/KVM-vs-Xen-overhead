@@ -1,0 +1,8 @@
+0 thread BASELINE FTRACE_HOST FTRACEALL_HOST
+Lat 50.0th-qrtle-1 47.6667 41.3333 41
+Lat 75.0th-qrtle-1 49 44 43.6667
+Lat 90.0th-qrtle-1 54 47 48
+Lat 95.0th-qrtle-1 57.3333 50 54
+Lat 99.0th-qrtle-1 84.6667 70 67.3333
+Lat 99.5th-qrtle-1 86.3333 71 67.3333
+Lat 99.9th-qrtle-1 88.3333 73.6667 67.3333

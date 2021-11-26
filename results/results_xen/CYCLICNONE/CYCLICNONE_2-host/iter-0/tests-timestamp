@@ -1,0 +1,21 @@
+start :: 1634627742
+VMs up :: 1634627833
+vms ready :: 1634627833
+test begin :: 1634627836
+recvd token :: "mmtests_start" 1634627840
+sent token :: "mmtests_start" 1634627840
+recvd token :: "test_do" 1634627854
+sent token :: "test_do" 1634627855
+recvd token :: "test_done" 1634628495
+sent token :: "test_done" 1634628495
+recvd token :: "test_do" 1634628496
+sent token :: "test_do" 1634628496
+recvd token :: "test_done" 1634629135
+sent token :: "test_done" 1634629136
+recvd token :: "mmtests_end" 1634629136
+sent token :: "mmtests_end" 1634629136
+test end :: 1634629136
+VMs down :: 1634629147
+time :: monitor 28.77 user 12.61 system 1300.14 elapsed
+finish :: 1634629147
+status :: 0

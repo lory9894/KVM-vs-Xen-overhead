@@ -1,0 +1,9 @@
+# List of monitors for the host
+export RUN_MONITOR=yes
+export MONITORS_GZIP="ftrace xentrace"
+export MONITOR_FTRACE_EVENTS="sched/sched_switch sched/sched_wakeup sched/sched_waking sched/sched_migrate_task"
+export MONITORS_XENTRACE_MASK="TRC_ALL"
+export MONITORS_ALWAYS=""
+export MONITORS_WITH_LATENCY=""
+export MONITORS_TRACER=""
+export MONITOR_PERF_EVENTS=""

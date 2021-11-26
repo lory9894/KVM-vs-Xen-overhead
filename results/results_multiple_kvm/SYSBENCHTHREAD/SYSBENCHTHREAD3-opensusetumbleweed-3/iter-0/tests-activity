@@ -1,0 +1,28 @@
+1632746734 run-mmtests: Start
+1632746734 run-mmtests: Iteration 0 start
+1632746735 sysbenchthread-bench: source-install
+1632746747 sysbenchthread-bench: source-installed
+1632746747 run-mmtests: begin sysbenchthread
+1632746751 sysbenchthread-bench: iteration 1
+1632746758 sysbenchthread-bench: iteration 2
+1632746765 sysbenchthread-bench: iteration 3
+1632746772 sysbenchthread-bench: iteration 4
+1632746779 sysbenchthread-bench: iteration 5
+1632746786 sysbenchthread-bench: iteration 6
+1632746793 sysbenchthread-bench: iteration 7
+1632746801 sysbenchthread-bench: iteration 1
+1632746808 sysbenchthread-bench: iteration 2
+1632746814 sysbenchthread-bench: iteration 3
+1632746822 sysbenchthread-bench: iteration 4
+1632746829 sysbenchthread-bench: iteration 5
+1632746836 sysbenchthread-bench: iteration 6
+1632746843 sysbenchthread-bench: iteration 7
+1632746850 sysbenchthread-bench: iteration 1
+1632746857 sysbenchthread-bench: iteration 2
+1632746864 sysbenchthread-bench: iteration 3
+1632746871 sysbenchthread-bench: iteration 4
+1632746878 sysbenchthread-bench: iteration 5
+1632746885 sysbenchthread-bench: iteration 6
+1632746892 sysbenchthread-bench: iteration 7
+1632746899 run-mmtests: Iteration 0 end
+1632746899 run-mmtests: End

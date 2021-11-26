@@ -1,0 +1,50 @@
+make all
+make[1]: Entering directory '/root/git-private/mmtests/work/sources/unixbench-5.1.3-installed'
+Checking distribution of files
+./pgms  exists
+./src  exists
+./testdir  exists
+./tmp  exists
+./results  exists
+make[1]: Leaving directory '/root/git-private/mmtests/work/sources/unixbench-5.1.3-installed'
+sh: 3dinfo: command not found
+
+   #    #  #    #  #  #    #          #####   ######  #    #   ####   #    #
+   #    #  ##   #  #   #  #           #    #  #       ##   #  #    #  #    #
+   #    #  # #  #  #    ##            #####   #####   # #  #  #       ######
+   #    #  #  # #  #    ##            #    #  #       #  # #  #       #    #
+   #    #  #   ##  #   #  #           #    #  #       #   ##  #    #  #    #
+    ####   #    #  #  #    #          #####   ######  #    #   ####   #    #
+
+   Version 5.1.3                      Based on the Byte Magazine Unix Benchmark
+
+   Multi-CPU version                  Version 5 revisions by Ian Smith,
+                                      Sunnyvale, CA, USA
+   January 13, 2011                   johantheghost at yahoo period com
+
+
+8 x File Read 4096 bufsize 8000 maxblocks  1 2 3
+
+========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: localhost: GNU/Linux
+   OS: GNU/Linux -- 5.3.18-59.27-default -- #1 SMP Tue Oct 5 10:00:40 UTC 2021 (7df2404)
+   Machine: x86_64 (x86_64)
+   Language: en_US.utf8 (charmap="UTF-8", collate="UTF-8")
+   CPU 0: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz (5616.2 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 1: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz (5616.2 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 2: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz (5616.2 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   CPU 3: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz (5616.2 bogomips)
+          Hyper-Threading, x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET
+   05:45:45  up   1:03,  0 users,  load average: 0.87, 1.83, 2.65; runlevel 3
+
+------------------------------------------------------------------------
+Benchmark Run: Sat Oct 23 2021 05:45:45 - 05:48:00
+4 CPUs in system; running 8 parallel copies of tests
+
+File Read 4096 bufsize 8000 maxblocks      20603465.8 KBps  (30.0 s, 2 samples)
+

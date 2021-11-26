@@ -1,0 +1,87 @@
+1634949658 run-mmtests: Start
+1634949658 run-mmtests: Iteration 0 start
+1634949658 unixbench-bench: source-install
+1634949670 unixbench-bench: source-installed
+1634949670 run-mmtests: begin unixbench-fsbuffer
+1634949671 unixbench-bench: fsbuffer-1
+1634949671 unixbench-bench: iteration 1
+1634949817 unixbench-bench: iteration 2
+1634949963 unixbench-bench: iteration 3
+1634950109 unixbench-bench: fsbuffer-8
+1634950109 unixbench-bench: iteration 1
+1634950256 unixbench-bench: iteration 2
+1634950403 unixbench-bench: iteration 3
+1634950554 run-mmtests: begin unixbench-fsbuffer-r
+1634950554 unixbench-bench: fsbuffer-r-1
+1634950554 unixbench-bench: iteration 1
+1634950685 unixbench-bench: iteration 2
+1634950816 unixbench-bench: iteration 3
+1634950947 unixbench-bench: fsbuffer-r-8
+1634950947 unixbench-bench: iteration 1
+1634951079 unixbench-bench: iteration 2
+1634951212 unixbench-bench: iteration 3
+1634951347 run-mmtests: begin unixbench-fsbuffer-w
+1634951347 unixbench-bench: fsbuffer-w-1
+1634951347 unixbench-bench: iteration 1
+1634951460 unixbench-bench: iteration 2
+1634951573 unixbench-bench: iteration 3
+1634951685 unixbench-bench: fsbuffer-w-8
+1634951685 unixbench-bench: iteration 1
+1634951801 unixbench-bench: iteration 2
+1634951916 unixbench-bench: iteration 3
+1634952032 run-mmtests: begin unixbench-fsdisk
+1634952033 unixbench-bench: fsdisk-1
+1634952033 unixbench-bench: iteration 1
+1634952180 unixbench-bench: iteration 2
+1634952326 unixbench-bench: iteration 3
+1634952472 unixbench-bench: fsdisk-8
+1634952472 unixbench-bench: iteration 1
+1634952625 unixbench-bench: iteration 2
+1634952780 unixbench-bench: iteration 3
+1634952935 run-mmtests: begin unixbench-fsdisk-r
+1634952935 unixbench-bench: fsdisk-r-1
+1634952936 unixbench-bench: iteration 1
+1634953068 unixbench-bench: iteration 2
+1634953199 unixbench-bench: iteration 3
+1634953330 unixbench-bench: fsdisk-r-8
+1634953330 unixbench-bench: iteration 1
+1634953466 unixbench-bench: iteration 2
+1634953601 unixbench-bench: iteration 3
+1634953738 run-mmtests: begin unixbench-fsdisk-w
+1634953739 unixbench-bench: fsdisk-w-1
+1634953739 unixbench-bench: iteration 1
+1634953852 unixbench-bench: iteration 2
+1634953965 unixbench-bench: iteration 3
+1634954077 unixbench-bench: fsdisk-w-8
+1634954077 unixbench-bench: iteration 1
+1634954201 unixbench-bench: iteration 2
+1634954320 unixbench-bench: iteration 3
+1634954449 run-mmtests: begin unixbench-fstime
+1634954449 unixbench-bench: fstime-1
+1634954449 unixbench-bench: iteration 1
+1634954596 unixbench-bench: iteration 2
+1634954743 unixbench-bench: iteration 3
+1634954889 unixbench-bench: fstime-8
+1634954890 unixbench-bench: iteration 1
+1634955041 unixbench-bench: iteration 2
+1634955191 unixbench-bench: iteration 3
+1634955345 run-mmtests: begin unixbench-fstime-r
+1634955345 unixbench-bench: fstime-r-1
+1634955345 unixbench-bench: iteration 1
+1634955477 unixbench-bench: iteration 2
+1634955609 unixbench-bench: iteration 3
+1634955740 unixbench-bench: fstime-r-8
+1634955741 unixbench-bench: iteration 1
+1634955876 unixbench-bench: iteration 2
+1634956011 unixbench-bench: iteration 3
+1634956148 run-mmtests: begin unixbench-fstime-w
+1634956148 unixbench-bench: fstime-w-1
+1634956149 unixbench-bench: iteration 1
+1634956262 unixbench-bench: iteration 2
+1634956375 unixbench-bench: iteration 3
+1634956488 unixbench-bench: fstime-w-8
+1634956489 unixbench-bench: iteration 1
+1634956610 unixbench-bench: iteration 2
+1634956728 unixbench-bench: iteration 3
+1634956851 run-mmtests: Iteration 0 end
+1634956851 run-mmtests: End

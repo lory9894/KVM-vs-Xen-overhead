@@ -1,0 +1,811 @@
+start :: 1635667420
+VMs up :: 1635667422
+vms ready :: 1635667422
+version :: 3f115de146871b020549a2f6e18ce216d1405b40
+arch :: x86_64
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp2s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether e0:d5:5e:8c:81:a5 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.6/24 brd 192.168.1.255 scope global noprefixroute enp2s0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::e2d5:5eff:fe8c:81a5/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: virbr0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether 52:54:00:b7:15:bf brd ff:ff:ff:ff:ff:ff
+    inet 192.168.122.1/24 brd 192.168.122.255 scope global virbr0
+       valid_lft forever preferred_lft forever
+4: vnet0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master virbr0 state UNKNOWN group default qlen 1000
+    link/ether fe:54:00:d5:c1:02 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::fc54:ff:fed5:c102/64 scope link 
+       valid_lft forever preferred_lft forever
+5: vnet1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master virbr0 state UNKNOWN group default qlen 1000
+    link/ether fe:54:00:fd:4e:d7 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::fc54:ff:fefd:4ed7/64 scope link 
+       valid_lft forever preferred_lft forever
+6: vnet2: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master virbr0 state UNKNOWN group default qlen 1000
+    link/ether fe:54:00:c0:56:c8 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::fc54:ff:fec0:56c8/64 scope link 
+       valid_lft forever preferred_lft forever
+mount :: start
+proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
+sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
+devtmpfs on /dev type devtmpfs (rw,nosuid,size=8134684k,nr_inodes=2033671,mode=755,inode64)
+securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev,inode64)
+devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs on /run type tmpfs (rw,nosuid,nodev,size=3261212k,nr_inodes=819200,mode=755,inode64)
+cgroup2 on /sys/fs/cgroup type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot)
+pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)
+efivarfs on /sys/firmware/efi/efivars type efivarfs (rw,nosuid,nodev,noexec,relatime)
+none on /sys/fs/bpf type bpf (rw,nosuid,nodev,noexec,relatime,mode=700)
+/dev/sda4 on / type btrfs (rw,relatime,space_cache,subvolid=267,subvol=/@/.snapshots/1/snapshot)
+systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=30,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=13536)
+mqueue on /dev/mqueue type mqueue (rw,nosuid,nodev,noexec,relatime)
+debugfs on /sys/kernel/debug type debugfs (rw,nosuid,nodev,noexec,relatime)
+tracefs on /sys/kernel/tracing type tracefs (rw,nosuid,nodev,noexec,relatime)
+hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime,pagesize=2M)
+tmpfs on /tmp type tmpfs (rw,nosuid,nodev,size=8153028k,nr_inodes=409600,inode64)
+fusectl on /sys/fs/fuse/connections type fusectl (rw,nosuid,nodev,noexec,relatime)
+configfs on /sys/kernel/config type configfs (rw,nosuid,nodev,noexec,relatime)
+/dev/sda4 on /.snapshots type btrfs (rw,relatime,space_cache,subvolid=266,subvol=/@/.snapshots)
+/dev/sda4 on /boot/grub2/i386-pc type btrfs (rw,relatime,space_cache,subvolid=265,subvol=/@/boot/grub2/i386-pc)
+/dev/sda4 on /opt type btrfs (rw,relatime,space_cache,subvolid=262,subvol=/@/opt)
+/dev/sda4 on /srv type btrfs (rw,relatime,space_cache,subvolid=260,subvol=/@/srv)
+/dev/sda4 on /usr/local type btrfs (rw,relatime,space_cache,subvolid=259,subvol=/@/usr/local)
+/dev/sda4 on /var type btrfs (rw,relatime,space_cache,subvolid=258,subvol=/@/var)
+/dev/sda4 on /boot/grub2/x86_64-efi type btrfs (rw,relatime,space_cache,subvolid=264,subvol=/@/boot/grub2/x86_64-efi)
+/dev/sda4 on /root type btrfs (rw,relatime,space_cache,subvolid=261,subvol=/@/root)
+/dev/sda4 on /home type btrfs (rw,relatime,space_cache,subvolid=263,subvol=/@/home)
+/dev/sda2 on /boot/efi type vfat (rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro)
+tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=1630604k,nr_inodes=407651,mode=700,uid=1000,gid=100,inode64)
+gvfsd-fuse on /run/user/1000/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime,user_id=1000,group_id=100)
+tracefs on /sys/kernel/debug/tracing type tracefs (rw,nosuid,nodev,noexec,relatime)
+/proc/mounts :: start
+proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
+sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0
+devtmpfs /dev devtmpfs rw,nosuid,size=8134684k,nr_inodes=2033671,mode=755,inode64 0 0
+securityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /dev/shm tmpfs rw,nosuid,nodev,inode64 0 0
+devpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0
+tmpfs /run tmpfs rw,nosuid,nodev,size=3261212k,nr_inodes=819200,mode=755,inode64 0 0
+cgroup2 /sys/fs/cgroup cgroup2 rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot 0 0
+pstore /sys/fs/pstore pstore rw,nosuid,nodev,noexec,relatime 0 0
+efivarfs /sys/firmware/efi/efivars efivarfs rw,nosuid,nodev,noexec,relatime 0 0
+none /sys/fs/bpf bpf rw,nosuid,nodev,noexec,relatime,mode=700 0 0
+/dev/sda4 / btrfs rw,relatime,space_cache,subvolid=267,subvol=/@/.snapshots/1/snapshot 0 0
+systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=30,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=13536 0 0
+mqueue /dev/mqueue mqueue rw,nosuid,nodev,noexec,relatime 0 0
+debugfs /sys/kernel/debug debugfs rw,nosuid,nodev,noexec,relatime 0 0
+tracefs /sys/kernel/tracing tracefs rw,nosuid,nodev,noexec,relatime 0 0
+hugetlbfs /dev/hugepages hugetlbfs rw,relatime,pagesize=2M 0 0
+tmpfs /tmp tmpfs rw,nosuid,nodev,size=8153028k,nr_inodes=409600,inode64 0 0
+fusectl /sys/fs/fuse/connections fusectl rw,nosuid,nodev,noexec,relatime 0 0
+configfs /sys/kernel/config configfs rw,nosuid,nodev,noexec,relatime 0 0
+/dev/sda4 /.snapshots btrfs rw,relatime,space_cache,subvolid=266,subvol=/@/.snapshots 0 0
+/dev/sda4 /boot/grub2/i386-pc btrfs rw,relatime,space_cache,subvolid=265,subvol=/@/boot/grub2/i386-pc 0 0
+/dev/sda4 /opt btrfs rw,relatime,space_cache,subvolid=262,subvol=/@/opt 0 0
+/dev/sda4 /srv btrfs rw,relatime,space_cache,subvolid=260,subvol=/@/srv 0 0
+/dev/sda4 /usr/local btrfs rw,relatime,space_cache,subvolid=259,subvol=/@/usr/local 0 0
+/dev/sda4 /var btrfs rw,relatime,space_cache,subvolid=258,subvol=/@/var 0 0
+/dev/sda4 /boot/grub2/x86_64-efi btrfs rw,relatime,space_cache,subvolid=264,subvol=/@/boot/grub2/x86_64-efi 0 0
+/dev/sda4 /root btrfs rw,relatime,space_cache,subvolid=261,subvol=/@/root 0 0
+/dev/sda4 /home btrfs rw,relatime,space_cache,subvolid=263,subvol=/@/home 0 0
+/dev/sda2 /boot/efi vfat rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro 0 0
+tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=1630604k,nr_inodes=407651,mode=700,uid=1000,gid=100,inode64 0 0
+gvfsd-fuse /run/user/1000/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=100 0 0
+tracefs /sys/kernel/debug/tracing tracefs rw,nosuid,nodev,noexec,relatime 0 0
+test begin :: 1635667426
+file start :: /proc/vmstat
+nr_free_pages 2790540
+nr_zone_inactive_anon 404977
+nr_zone_active_anon 254629
+nr_zone_inactive_file 393157
+nr_zone_active_file 63759
+nr_zone_unevictable 0
+nr_zone_write_pending 0
+nr_mlock 0
+nr_bounce 0
+nr_zspages 0
+nr_free_cma 0
+numa_hit 1383912
+numa_miss 0
+numa_foreign 0
+numa_interleave 2470
+numa_local 1383912
+numa_other 0
+nr_inactive_anon 404977
+nr_active_anon 254629
+nr_inactive_file 393157
+nr_active_file 63759
+nr_unevictable 0
+nr_slab_reclaimable 12953
+nr_slab_unreclaimable 36109
+nr_isolated_anon 0
+nr_isolated_file 0
+workingset_nodes 0
+workingset_refault_anon 0
+workingset_refault_file 0
+workingset_activate_anon 0
+workingset_activate_file 0
+workingset_restore_anon 0
+workingset_restore_file 0
+workingset_nodereclaim 0
+nr_anon_pages 652505
+nr_mapped 80938
+nr_file_pages 459546
+nr_dirty 0
+nr_writeback 0
+nr_writeback_temp 0
+nr_shmem 2628
+nr_shmem_hugepages 0
+nr_shmem_pmdmapped 0
+nr_file_hugepages 0
+nr_file_pmdmapped 0
+nr_anon_transparent_hugepages 938
+nr_vmscan_write 0
+nr_vmscan_immediate_reclaim 0
+nr_dirtied 27553
+nr_written 27245
+nr_kernel_misc_reclaimable 0
+nr_foll_pin_acquired 0
+nr_foll_pin_released 0
+nr_kernel_stack 9080
+nr_page_table_pages 4537
+nr_swapcached 0
+nr_dirty_threshold 640759
+nr_dirty_background_threshold 319988
+pgpgin 1763699
+pgpgout 121277
+pswpin 0
+pswpout 0
+pgalloc_dma 1
+pgalloc_dma32 2
+pgalloc_normal 1572503
+pgalloc_movable 0
+allocstall_dma 0
+allocstall_dma32 0
+allocstall_normal 0
+allocstall_movable 0
+pgskip_dma 0
+pgskip_dma32 0
+pgskip_normal 0
+pgskip_movable 0
+pgfree 4884367
+pgactivate 310422
+pgdeactivate 0
+pglazyfree 0
+pgfault 1016911
+pgmajfault 738
+pglazyfreed 0
+pgrefill 0
+pgreuse 135224
+pgsteal_kswapd 0
+pgsteal_direct 0
+pgscan_kswapd 0
+pgscan_direct 0
+pgscan_direct_throttle 0
+pgscan_anon 0
+pgscan_file 0
+pgsteal_anon 0
+pgsteal_file 0
+zone_reclaim_failed 0
+pginodesteal 0
+slabs_scanned 0
+kswapd_inodesteal 0
+kswapd_low_wmark_hit_quickly 0
+kswapd_high_wmark_hit_quickly 0
+pageoutrun 0
+pgrotated 0
+drop_pagecache 0
+drop_slab 0
+oom_kill 0
+numa_pte_updates 0
+numa_huge_pte_updates 0
+numa_hint_faults 0
+numa_hint_faults_local 0
+numa_pages_migrated 0
+pgmigrate_success 0
+pgmigrate_fail 0
+thp_migration_success 0
+thp_migration_fail 0
+thp_migration_split 0
+compact_migrate_scanned 0
+compact_free_scanned 0
+compact_isolated 0
+compact_stall 0
+compact_fail 0
+compact_success 0
+compact_daemon_wake 0
+compact_daemon_migrate_scanned 0
+compact_daemon_free_scanned 0
+htlb_buddy_alloc_success 0
+htlb_buddy_alloc_fail 0
+cma_alloc_success 0
+cma_alloc_fail 0
+unevictable_pgs_culled 13070
+unevictable_pgs_scanned 0
+unevictable_pgs_rescued 208
+unevictable_pgs_mlocked 208
+unevictable_pgs_munlocked 208
+unevictable_pgs_cleared 0
+unevictable_pgs_stranded 0
+thp_fault_alloc 1053
+thp_fault_fallback 0
+thp_fault_fallback_charge 0
+thp_collapse_alloc 9
+thp_collapse_alloc_failed 0
+thp_file_alloc 0
+thp_file_fallback 0
+thp_file_fallback_charge 0
+thp_file_mapped 0
+thp_split_page 0
+thp_split_page_failed 0
+thp_deferred_split_page 63
+thp_split_pmd 326
+thp_split_pud 0
+thp_zero_page_alloc 1
+thp_zero_page_alloc_failed 0
+thp_swpout 0
+thp_swpout_fallback 0
+balloon_inflate 0
+balloon_deflate 0
+balloon_migrate 0
+swap_ra 0
+swap_ra_hit 0
+direct_map_level2_splits 104
+direct_map_level3_splits 5
+nr_unstable 0
+file start :: /proc/zoneinfo
+Node 0, zone      DMA
+  per-node stats
+      nr_inactive_anon 405075
+      nr_active_anon 254629
+      nr_inactive_file 393157
+      nr_active_file 63759
+      nr_unevictable 0
+      nr_slab_reclaimable 12953
+      nr_slab_unreclaimable 36109
+      nr_isolated_anon 0
+      nr_isolated_file 0
+      workingset_nodes 0
+      workingset_refault_anon 0
+      workingset_refault_file 0
+      workingset_activate_anon 0
+      workingset_activate_file 0
+      workingset_restore_anon 0
+      workingset_restore_file 0
+      workingset_nodereclaim 0
+      nr_anon_pages 652603
+      nr_mapped    81232
+      nr_file_pages 459546
+      nr_dirty     0
+      nr_writeback 0
+      nr_writeback_temp 0
+      nr_shmem     2628
+      nr_shmem_hugepages 0
+      nr_shmem_pmdmapped 0
+      nr_file_hugepages 0
+      nr_file_pmdmapped 0
+      nr_anon_transparent_hugepages 938
+      nr_vmscan_write 0
+      nr_vmscan_immediate_reclaim 0
+      nr_dirtied   27553
+      nr_written   27245
+      nr_kernel_misc_reclaimable 0
+      nr_foll_pin_acquired 0
+      nr_foll_pin_released 0
+      nr_kernel_stack 9080
+      nr_page_table_pages 4537
+      nr_swapcached 0
+  pages free     3328
+        min      15
+        low      18
+        high     21
+        spanned  4095
+        present  3998
+        managed  3840
+        cma      0
+        protection: (0, 2187, 15908, 15908, 15908)
+      nr_free_pages 3328
+      nr_zone_inactive_anon 0
+      nr_zone_active_anon 0
+      nr_zone_inactive_file 0
+      nr_zone_active_file 0
+      nr_zone_unevictable 0
+      nr_zone_write_pending 0
+      nr_mlock     0
+      nr_bounce    0
+      nr_zspages   0
+      nr_free_cma  0
+      numa_hit     1
+      numa_miss    0
+      numa_foreign 0
+      numa_interleave 1
+      numa_local   1
+      numa_other   0
+  pagesets
+    cpu: 0
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+    cpu: 1
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+    cpu: 2
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+    cpu: 3
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+    cpu: 4
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+    cpu: 5
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+  node_unreclaimable:  0
+  start_pfn:           1
+Node 0, zone    DMA32
+  pages free     558883
+        min      2296
+        low      2870
+        high     3444
+        spanned  1044480
+        present  576603
+        managed  560101
+        cma      0
+        protection: (0, 0, 13720, 13720, 13720)
+      nr_free_pages 558883
+      nr_zone_inactive_anon 0
+      nr_zone_active_anon 0
+      nr_zone_inactive_file 0
+      nr_zone_active_file 0
+      nr_zone_unevictable 0
+      nr_zone_write_pending 0
+      nr_mlock     0
+      nr_bounce    0
+      nr_zspages   0
+      nr_free_cma  0
+      numa_hit     2
+      numa_miss    0
+      numa_foreign 0
+      numa_interleave 1
+      numa_local   2
+      numa_other   0
+  pagesets
+    cpu: 0
+              count: 512
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+    cpu: 1
+              count: 131
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+    cpu: 2
+              count: 0
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+    cpu: 3
+              count: 0
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+    cpu: 4
+              count: 0
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+    cpu: 5
+              count: 62
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+  node_unreclaimable:  0
+  start_pfn:           4096
+Node 0, zone   Normal
+  pages free     2228266
+        min      14583
+        low      18228
+        high     21873
+        spanned  3596288
+        present  3596288
+        managed  3512572
+        cma      0
+        protection: (0, 0, 0, 0, 0)
+      nr_free_pages 2228266
+      nr_zone_inactive_anon 405075
+      nr_zone_active_anon 254629
+      nr_zone_inactive_file 393157
+      nr_zone_active_file 63759
+      nr_zone_unevictable 0
+      nr_zone_write_pending 0
+      nr_mlock     0
+      nr_bounce    0
+      nr_zspages   0
+      nr_free_cma  0
+      numa_hit     1383909
+      numa_miss    0
+      numa_foreign 0
+      numa_interleave 2468
+      numa_local   1383909
+      numa_other   0
+  pagesets
+    cpu: 0
+              count: 2712
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+    cpu: 1
+              count: 2501
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+    cpu: 2
+              count: 1244
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+    cpu: 3
+              count: 1867
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+    cpu: 4
+              count: 1323
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+    cpu: 5
+              count: 3006
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+  node_unreclaimable:  0
+  start_pfn:           1048576
+Node 0, zone  Movable
+  pages free     0
+        min      0
+        low      0
+        high     0
+        spanned  0
+        present  0
+        managed  0
+        cma      0
+        protection: (0, 0, 0, 0, 0)
+Node 0, zone   Device
+  pages free     0
+        min      0
+        low      0
+        high     0
+        spanned  0
+        present  0
+        managed  0
+        cma      0
+        protection: (0, 0, 0, 0, 0)
+file start :: /proc/meminfo
+MemTotal:       16306052 kB
+MemFree:        11161656 kB
+MemAvailable:   12759256 kB
+Buffers:            4220 kB
+Cached:          1833964 kB
+SwapCached:            0 kB
+Active:          1273552 kB
+Inactive:        3193124 kB
+Active(anon):    1018516 kB
+Inactive(anon):  1620496 kB
+Active(file):     255036 kB
+Inactive(file):  1572628 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:      415128572 kB
+SwapFree:       415128572 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:       2610608 kB
+Mapped:           324928 kB
+Shmem:             10512 kB
+KReclaimable:      51812 kB
+Slab:             196248 kB
+SReclaimable:      51812 kB
+SUnreclaim:       144436 kB
+KernelStack:        9132 kB
+PageTables:        18148 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    423281596 kB
+Committed_AS:   16802644 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      149008 kB
+VmallocChunk:          0 kB
+Percpu:             4288 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:   1921024 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      237932 kB
+DirectMap2M:     8081408 kB
+DirectMap1G:     8388608 kB
+file start :: /proc/schedstat
+version 15
+timestamp 4294952090
+cpu0 0 0 0 0 0 0 22550083030 502485315 46568
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cpu1 0 0 0 0 0 0 15498783969 526542116 57232
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cpu2 0 0 0 0 0 0 14705978976 572253941 53962
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cpu3 0 0 0 0 0 0 25376891472 387740298 45097
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cpu4 0 0 0 0 0 0 23275445225 542682864 45485
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cpu5 0 0 0 0 0 0 20049503923 1767745315 49399
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+file start :: /proc/diskstats
+   8       0 sda 13743 411 3514753 434829 6820 312 242554 192093 1 75020 635825 0 0 0 0 190 8902
+   8       1 sda1 38 0 304 205 0 0 0 0 0 220 205 0 0 0 0 0 0
+   8       2 sda2 153 35 10758 8108 2 0 2 0 0 4320 8109 0 0 0 0 0 0
+   8       3 sda3 58 0 4928 1322 0 0 0 0 0 1224 1322 0 0 0 0 0 0
+   8       4 sda4 13348 376 3494256 424207 6818 312 242552 192093 1 74708 616300 0 0 0 0 0 0
+   8      16 sdb 266 0 12690 671 0 0 0 0 0 680 671 0 0 0 0 0 0
+   8      17 sdb1 58 0 4176 136 0 0 0 0 0 132 136 0 0 0 0 0 0
+   8      18 sdb2 58 0 4176 185 0 0 0 0 0 192 185 0 0 0 0 0 0
+recvd token :: "mmtests_start" 1635667433
+enter state :: "mmtests_start" 1635667433
+recvd token :: "mmtests_start" 1635667434
+recvd token :: "mmtests_start" 1635667435
+sent token :: "mmtests_start" 1635667435
+recvd token :: "test_do" 1635667467
+enter state :: "test_do" 1635667467
+recvd token :: "test_do" 1635667469
+recvd token :: "test_do" 1635667471
+sent token :: "test_do" 1635667471
+recvd token :: "iteration_begin" 1635667471
+enter state :: "iteration_begin" 1635667471
+recvd token :: "iteration_begin" 1635667471
+recvd token :: "iteration_begin" 1635667471
+sent token :: "iteration_begin" 1635667471
+recvd token :: "iteration_end" 1635667514
+enter state :: "iteration_end" 1635667514
+recvd token :: "iteration_end" 1635667518
+recvd token :: "iteration_end" 1635667518
+sent token :: "iteration_end" 1635667518
+recvd token :: "iteration_begin" 1635667518
+enter state :: "iteration_begin" 1635667518
+recvd token :: "iteration_begin" 1635667518
+recvd token :: "iteration_begin" 1635667518
+sent token :: "iteration_begin" 1635667518
+recvd token :: "iteration_end" 1635667563
+enter state :: "iteration_end" 1635667563
+recvd token :: "iteration_end" 1635667568
+recvd token :: "iteration_end" 1635667568
+sent token :: "iteration_end" 1635667568
+recvd token :: "iteration_begin" 1635667568
+enter state :: "iteration_begin" 1635667568
+recvd token :: "iteration_begin" 1635667568
+recvd token :: "iteration_begin" 1635667568
+sent token :: "iteration_begin" 1635667568
+recvd token :: "iteration_end" 1635667615
+enter state :: "iteration_end" 1635667615
+recvd token :: "iteration_end" 1635667616
+recvd token :: "iteration_end" 1635667616
+sent token :: "iteration_end" 1635667617
+recvd token :: "iteration_begin" 1635667617
+enter state :: "iteration_begin" 1635667617
+recvd token :: "iteration_begin" 1635667617
+recvd token :: "iteration_begin" 1635667617
+sent token :: "iteration_begin" 1635667617
+recvd token :: "iteration_end" 1635667662
+enter state :: "iteration_end" 1635667662
+recvd token :: "iteration_end" 1635667664
+recvd token :: "iteration_end" 1635667664
+sent token :: "iteration_end" 1635667665
+recvd token :: "iteration_begin" 1635667665
+enter state :: "iteration_begin" 1635667665
+recvd token :: "iteration_begin" 1635667665
+recvd token :: "iteration_begin" 1635667666
+sent token :: "iteration_begin" 1635667666
+recvd token :: "iteration_end" 1635667710
+enter state :: "iteration_end" 1635667710
+recvd token :: "iteration_end" 1635667711
+recvd token :: "iteration_end" 1635667717
+sent token :: "iteration_end" 1635667718
+recvd token :: "iteration_begin" 1635667718
+enter state :: "iteration_begin" 1635667718
+recvd token :: "iteration_begin" 1635667718
+recvd token :: "iteration_begin" 1635667718
+sent token :: "iteration_begin" 1635667719
+recvd token :: "iteration_end" 1635667759
+enter state :: "iteration_end" 1635667759
+recvd token :: "iteration_end" 1635667765
+recvd token :: "iteration_end" 1635667766
+sent token :: "iteration_end" 1635667767
+recvd token :: "iteration_begin" 1635667767
+enter state :: "iteration_begin" 1635667767
+recvd token :: "iteration_begin" 1635667767
+recvd token :: "iteration_begin" 1635667767
+sent token :: "iteration_begin" 1635667768
+recvd token :: "iteration_end" 1635667801
+enter state :: "iteration_end" 1635667801
+recvd token :: "iteration_end" 1635667804
+recvd token :: "iteration_end" 1635667804
+sent token :: "iteration_end" 1635667805
+recvd token :: "iteration_begin" 1635667805
+enter state :: "iteration_begin" 1635667805
+recvd token :: "iteration_begin" 1635667805
+recvd token :: "iteration_begin" 1635667806
+sent token :: "iteration_begin" 1635667807
+recvd token :: "iteration_end" 1635667839
+enter state :: "iteration_end" 1635667839
+recvd token :: "iteration_end" 1635667840
+recvd token :: "iteration_end" 1635667842
+sent token :: "iteration_end" 1635667844
+recvd token :: "iteration_begin" 1635667844
+enter state :: "iteration_begin" 1635667844
+recvd token :: "iteration_begin" 1635667844
+recvd token :: "iteration_begin" 1635667845
+sent token :: "iteration_begin" 1635667847
+recvd token :: "iteration_end" 1635667872
+enter state :: "iteration_end" 1635667872
+recvd token :: "iteration_end" 1635667876
+recvd token :: "iteration_end" 1635667878
+sent token :: "iteration_end" 1635667879
+recvd token :: "iteration_begin" 1635667879
+enter state :: "iteration_begin" 1635667879
+recvd token :: "iteration_begin" 1635667879
+recvd token :: "iteration_begin" 1635667879
+sent token :: "iteration_begin" 1635667880
+recvd token :: "iteration_end" 1635667911
+enter state :: "iteration_end" 1635667911
+recvd token :: "iteration_end" 1635667913
+recvd token :: "iteration_end" 1635667913
+sent token :: "iteration_end" 1635667913
+recvd token :: "iteration_begin" 1635667914
+enter state :: "iteration_begin" 1635667914
+recvd token :: "iteration_begin" 1635667914
+recvd token :: "iteration_begin" 1635667915
+sent token :: "iteration_begin" 1635667915
+recvd token :: "iteration_end" 1635667946
+enter state :: "iteration_end" 1635667946
+recvd token :: "iteration_end" 1635667949
+recvd token :: "iteration_end" 1635667949
+sent token :: "iteration_end" 1635667950
+recvd token :: "iteration_begin" 1635667950
+enter state :: "iteration_begin" 1635667950
+recvd token :: "iteration_begin" 1635667950
+recvd token :: "iteration_begin" 1635667950
+sent token :: "iteration_begin" 1635667950
+recvd token :: "iteration_end" 1635667981
+enter state :: "iteration_end" 1635667981
+recvd token :: "iteration_end" 1635667981
+recvd token :: "iteration_end" 1635667991
+sent token :: "iteration_end" 1635667992
+recvd token :: "iteration_begin" 1635667993
+enter state :: "iteration_begin" 1635667993
+recvd token :: "iteration_begin" 1635667993
+recvd token :: "iteration_begin" 1635667994
+sent token :: "iteration_begin" 1635667996
+recvd token :: "iteration_end" 1635668022
+enter state :: "iteration_end" 1635668022
+recvd token :: "iteration_end" 1635668036
+recvd token :: "iteration_end" 1635668046
+sent token :: "iteration_end" 1635668049
+recvd token :: "iteration_begin" 1635668049
+enter state :: "iteration_begin" 1635668049
+recvd token :: "iteration_begin" 1635668049
+recvd token :: "iteration_begin" 1635668050
+sent token :: "iteration_begin" 1635668052
+recvd token :: "iteration_end" 1635668079
+enter state :: "iteration_end" 1635668079
+recvd token :: "iteration_end" 1635668082
+recvd token :: "iteration_end" 1635668087
+sent token :: "iteration_end" 1635668089
+recvd token :: "iteration_begin" 1635668089
+enter state :: "iteration_begin" 1635668089
+recvd token :: "iteration_begin" 1635668089
+recvd token :: "iteration_begin" 1635668089
+sent token :: "iteration_begin" 1635668089
+recvd token :: "iteration_end" 1635668116
+enter state :: "iteration_end" 1635668116
+recvd token :: "iteration_end" 1635668117
+recvd token :: "iteration_end" 1635668118
+sent token :: "iteration_end" 1635668119
+recvd token :: "iteration_begin" 1635668119
+enter state :: "iteration_begin" 1635668119
+recvd token :: "iteration_begin" 1635668119
+recvd token :: "iteration_begin" 1635668119
+sent token :: "iteration_begin" 1635668119
+recvd token :: "iteration_end" 1635668148
+enter state :: "iteration_end" 1635668148
+recvd token :: "iteration_end" 1635668148
+recvd token :: "iteration_end" 1635668151
+sent token :: "iteration_end" 1635668151
+recvd token :: "iteration_begin" 1635668151
+enter state :: "iteration_begin" 1635668151
+recvd token :: "iteration_begin" 1635668151
+recvd token :: "iteration_begin" 1635668152
+sent token :: "iteration_begin" 1635668152
+recvd token :: "iteration_end" 1635668182
+enter state :: "iteration_end" 1635668182
+recvd token :: "iteration_end" 1635668183
+recvd token :: "iteration_end" 1635668183
+sent token :: "iteration_end" 1635668186
+recvd token :: "iteration_begin" 1635668186
+enter state :: "iteration_begin" 1635668186
+recvd token :: "iteration_begin" 1635668186
+recvd token :: "iteration_begin" 1635668186
+sent token :: "iteration_begin" 1635668186
+recvd token :: "iteration_end" 1635668215
+enter state :: "iteration_end" 1635668215
+recvd token :: "iteration_end" 1635668217
+recvd token :: "iteration_end" 1635668217
+sent token :: "iteration_end" 1635668218
+recvd token :: "iteration_begin" 1635668218
+enter state :: "iteration_begin" 1635668218
+recvd token :: "iteration_begin" 1635668218
+recvd token :: "iteration_begin" 1635668218
+sent token :: "iteration_begin" 1635668218
+recvd token :: "iteration_end" 1635668247
+enter state :: "iteration_end" 1635668247
+recvd token :: "iteration_end" 1635668252
+recvd token :: "iteration_end" 1635668253
+sent token :: "iteration_end" 1635668253
+recvd token :: "iteration_begin" 1635668253
+enter state :: "iteration_begin" 1635668253
+recvd token :: "iteration_begin" 1635668253
+recvd token :: "iteration_begin" 1635668254
+sent token :: "iteration_begin" 1635668254
+recvd token :: "iteration_end" 1635668280
+enter state :: "iteration_end" 1635668280
+recvd token :: "iteration_end" 1635668280
+recvd token :: "iteration_end" 1635668284
+sent token :: "iteration_end" 1635668284
+recvd token :: "iteration_begin" 1635668284
+enter state :: "iteration_begin" 1635668284
+recvd token :: "iteration_begin" 1635668284
+recvd token :: "iteration_begin" 1635668284
+sent token :: "iteration_begin" 1635668284
+recvd token :: "iteration_end" 1635668311
+enter state :: "iteration_end" 1635668311
+recvd token :: "iteration_end" 1635668317
+recvd token :: "iteration_end" 1635668317
+sent token :: "iteration_end" 1635668318
+recvd token :: "test_done" 1635668722
+enter state :: "test_done" 1635668722
+recvd token :: "test_done" 1635668735
+recvd token :: "test_done" 1635668752
+sent token :: "test_done" 1635668753
+recvd token :: "mmtests_end" 1635668759
+enter state :: "mmtests_end" 1635668759
+recvd token :: "mmtests_end" 1635668759
+recvd token :: "mmtests_end" 1635668759
+sent token :: "mmtests_end" 1635668760

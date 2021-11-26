@@ -1,0 +1,58 @@
+#!/bin/bash
+#unixbench-dhry2reg.json.xz  unixbench-execl.json.xz  unixbench-pipe.json.xz  unixbench-spawn.json.xz  unixbench-syscall.json.xz
+
+
+NAME="unixbench-dhry2reg"
+xz -dk $NAME*.xz
+in2csv -k _RenderTable "$NAME".json > "$NAME".csv
+awk -F "\"*," '{for (i=3; i<=NF; i+=2) { r = (r ? r OFS : "") $i }; print $1 " " $2 " " r; r="" }' "$NAME".csv  > "$NAME"_average.csv
+awk '{a=(($3+$4+$5)/3); $10=a; $11=$6; $12=$7 ; $13=$8 ; $14=$9 ; print $1 " "$2 " " $10 " " $11 " " $12 " " $13 " " $14}' "$NAME"_average.csv > "$NAME"_average.txt
+rm "$NAME".csv
+rm "$NAME"_average.csv
+awk '{print $1 "," $2 "," $3 "," $4 "," $5 "," $6 "," $7}' "$NAME"_average.txt > "$NAME"_average.csv
+
+NAME="unixbench-execl"
+xz -dk $NAME*.xz
+in2csv -k _RenderTable "$NAME".json > "$NAME".csv
+awk -F "\"*," '{for (i=3; i<=NF; i+=2) { r = (r ? r OFS : "") $i }; print $1 " " $2 " " r; r="" }' "$NAME".csv  > "$NAME"_average.csv
+awk '{a=(($3+$4+$5)/3); $10=a; $11=$6; $12=$7 ; $13=$8 ; $14=$9 ; print $1 " "$2 " " $10 " " $11 " " $12 " " $13 " " $14}' "$NAME"_average.csv > "$NAME"_average.txt
+rm "$NAME".csv
+rm "$NAME"_average.csv
+awk '{print $1 "," $2 "," $3 "," $4 "," $5 "," $6 "," $7}' "$NAME"_average.txt > "$NAME"_average.csv
+
+NAME="unixbench-pipe"
+xz -dk $NAME*.xz
+in2csv -k _RenderTable "$NAME".json > "$NAME".csv
+awk -F "\"*," '{for (i=3; i<=NF; i+=2) { r = (r ? r OFS : "") $i }; print $1 " " $2 " " r; r="" }' "$NAME".csv  > "$NAME"_average.csv
+awk '{a=(($3+$4+$5)/3); $10=a; $11=$6; $12=$7 ; $13=$8 ; $14=$9 ; print $1 " "$2 " " $10 " " $11 " " $12 " " $13 " " $14}' "$NAME"_average.csv > "$NAME"_average.txt
+rm "$NAME".csv
+rm "$NAME"_average.csv
+awk '{print $1 "," $2 "," $3 "," $4 "," $5 "," $6 "," $7}' "$NAME"_average.txt > "$NAME"_average.csv
+
+
+NAME="unixbench-spawn"
+xz -dk $NAME*.xz
+in2csv -k _RenderTable "$NAME".json > "$NAME".csv
+awk -F "\"*," '{for (i=3; i<=NF; i+=2) { r = (r ? r OFS : "") $i }; print $1 " " $2 " " r; r="" }' "$NAME".csv  > "$NAME"_average.csv
+awk '{a=(($3+$4+$5)/3); $10=a; $11=$6; $12=$7 ; $13=$8 ; $14=$9 ; print $1 " "$2 " " $10 " " $11 " " $12 " " $13 " " $14}' "$NAME"_average.csv > "$NAME"_average.txt
+rm "$NAME".csv
+rm "$NAME"_average.csv
+awk '{print $1 "," $2 "," $3 "," $4 "," $5 "," $6 "," $7}' "$NAME"_average.txt > "$NAME"_average.csv
+
+
+NAME="unixbench-syscall"
+xz -dk $NAME*.xz
+in2csv -k _RenderTable "$NAME".json > "$NAME".csv
+awk -F "\"*," '{for (i=3; i<=NF; i+=2) { r = (r ? r OFS : "") $i }; print $1 " " $2 " " r; r="" }' "$NAME".csv  > "$NAME"_average.csv
+awk '{a=(($3+$4+$5)/3); $10=a; $11=$6; $12=$7 ; $13=$8 ; $14=$9 ; print $1 " "$2 " " $10 " " $11 " " $12 " " $13 " " $14}' "$NAME"_average.csv > "$NAME"_average.txt
+rm "$NAME".csv
+rm "$NAME"_average.csv
+awk '{print $1 "," $2 "," $3 "," $4 "," $5 "," $6 "," $7}' "$NAME"_average.txt > "$NAME"_average.csv
+
+
+mkdir csv
+mkdir txt
+rm *.json 
+mv *.txt txt/
+mv *.csv csv/
+

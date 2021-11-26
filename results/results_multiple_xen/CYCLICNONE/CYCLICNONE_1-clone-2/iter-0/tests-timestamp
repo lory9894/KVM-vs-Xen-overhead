@@ -1,0 +1,9 @@
+start :: 1634672562
+test begin :: cyclictest-fine-pinned 1634672587
+test end :: cyclictest-fine-pinned 1634673208
+time :: cyclictest-fine-pinned 19.98 user 11.47 system 620.06 elapsed
+test begin :: cyclictest-fine-unbound 1634673208
+test end :: cyclictest-fine-unbound 1634673829
+time :: cyclictest-fine-unbound 19.95 user 11.34 system 619.88 elapsed
+finish :: 1634673829
+status :: 0

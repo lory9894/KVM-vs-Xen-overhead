@@ -1,0 +1,29 @@
+start :: 1634993068
+VMs up :: 1634993172
+vms ready :: 1634993173
+test begin :: 1634993181
+recvd token :: "mmtests_start" 1634993191
+enter state :: "mmtests_start" 1634993191
+recvd token :: "mmtests_start" 1634993193
+recvd token :: "mmtests_start" 1634993193
+sent token :: "mmtests_start" 1634993194
+recvd token :: "test_do" 1634993221
+enter state :: "test_do" 1634993221
+recvd token :: "test_do" 1634993222
+recvd token :: "test_do" 1634993224
+sent token :: "test_do" 1634993224
+recvd token :: "test_done" 1634993847
+enter state :: "test_done" 1634993847
+recvd token :: "test_done" 1634993847
+recvd token :: "test_done" 1634993847
+sent token :: "test_done" 1634993849
+recvd token :: "mmtests_end" 1634993849
+enter state :: "mmtests_end" 1634993849
+recvd token :: "mmtests_end" 1634993849
+recvd token :: "mmtests_end" 1634993849
+sent token :: "mmtests_end" 1634993849
+test end :: 1634993884
+VMs down :: 1634993924
+time :: monitor 18.71 user 6.51 system 668.46 elapsed
+finish :: 1634993925
+status :: 0

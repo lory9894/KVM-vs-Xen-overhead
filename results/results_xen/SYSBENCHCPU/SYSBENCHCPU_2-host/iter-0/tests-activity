@@ -1,0 +1,9 @@
+1634568560 run-kvm: Start
+1634568560 run-kvm: Booting VMs
+1634568651 run-kvm: VM opensuse IP 192.168.122.231
+1634568654 run-kvm: run-mmtests in VMs start
+1634568654 run-kvm: begin monitor
+1634569026 run-kvm: run-mmtests in VMs end
+1634569027 run-kvm: Shutoff VMs
+1634569037 run-kvm: Iteration 0 end
+1634569037 run-kvm: End

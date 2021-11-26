@@ -1,0 +1,17 @@
+0,thread,BASELINE,XENTRACE,XENTRACE_ALL
+Min,unixbench-syscall-1,518875,519057.4,519696.9
+Min,unixbench-syscall-8,1.93384e+06,1921329.4,1940248.2
+Amean,unixbench-syscall-1,520994,519410.533333333,521042.5
+Amean,unixbench-syscall-8,1.93512e+06,1922540.96666667,1941107.9
+Stddev,unixbench-syscall-1,1864.22,324.099758304956,1317.83788077289
+Stddev,unixbench-syscall-8,1616.18,1165.55881161505,745.035294465997
+CoeffVar,unixbench-syscall-1,0.357519,0.0623976098877001,0.252923299111472
+CoeffVar,unixbench-syscall-8,0.0835023,0.0606259544958315,0.038381961892278
+Max,unixbench-syscall-1,522240,519694.4,522330.7
+Max,unixbench-syscall-8,1.93688e+06,1923654.3,1941565.4
+BAmean-50,unixbench-syscall-1,518875,519057.4,519696.9
+BAmean-50,unixbench-syscall-8,1.93384e+06,1921329.4,1940248.2
+BAmean-95,unixbench-syscall-1,520371,519268.6,520398.4
+BAmean-95,unixbench-syscall-8,1.93424e+06,1921984.3,1940879.15
+BAmean-99,unixbench-syscall-1,520371,519268.6,520398.4
+BAmean-99,unixbench-syscall-8,1.93424e+06,1921984.3,1940879.15

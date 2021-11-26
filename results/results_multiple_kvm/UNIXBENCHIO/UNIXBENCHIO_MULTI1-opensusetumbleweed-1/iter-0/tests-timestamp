@@ -1,0 +1,30 @@
+start :: 1632810112
+test begin :: unixbench-fsbuffer 1632810126
+test end :: unixbench-fsbuffer 1632811025
+time :: unixbench-fsbuffer 155.73 user 756.27 system 896.98 elapsed
+test begin :: unixbench-fsbuffer-r 1632811025
+test end :: unixbench-fsbuffer-r 1632811825
+time :: unixbench-fsbuffer-r 399.76 user 471.56 system 798.91 elapsed
+test begin :: unixbench-fsbuffer-w 1632811825
+test end :: unixbench-fsbuffer-w 1632812513
+time :: unixbench-fsbuffer-w 70.69 user 727.72 system 687.35 elapsed
+test begin :: unixbench-fsdisk 1632812513
+test end :: unixbench-fsdisk 1632813415
+time :: unixbench-fsdisk 127.19 user 784.88 system 900.81 elapsed
+test begin :: unixbench-fsdisk-r 1632813415
+test end :: unixbench-fsdisk-r 1632814224
+time :: unixbench-fsdisk-r 237.99 user 631.34 system 808.29 elapsed
+test begin :: unixbench-fsdisk-w 1632814224
+test end :: unixbench-fsdisk-w 1632814911
+time :: unixbench-fsdisk-w 66.01 user 734.62 system 686.65 elapsed
+test begin :: unixbench-fstime 1632814912
+test end :: unixbench-fstime 1632815806
+time :: unixbench-fstime 152.21 user 764.42 system 894.15 elapsed
+test begin :: unixbench-fstime-r 1632815807
+test end :: unixbench-fstime-r 1632816611
+time :: unixbench-fstime-r 376.46 user 494.15 system 803.51 elapsed
+test begin :: unixbench-fstime-w 1632816611
+test end :: unixbench-fstime-w 1632817297
+time :: unixbench-fstime-w 71.37 user 727.94 system 685.35 elapsed
+finish :: 1632817297
+status :: 0

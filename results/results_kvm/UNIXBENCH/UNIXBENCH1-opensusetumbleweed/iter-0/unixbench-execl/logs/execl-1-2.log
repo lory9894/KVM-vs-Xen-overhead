@@ -1,0 +1,55 @@
+make all
+make[1]: Entering directory '/root/git-private/mmtests/work/sources/unixbench-5.1.3-installed'
+Checking distribution of files
+./pgms  exists
+./src  exists
+./testdir  exists
+./tmp  exists
+./results  exists
+make[1]: Leaving directory '/root/git-private/mmtests/work/sources/unixbench-5.1.3-installed'
+sh: line 1: 3dinfo: command not found
+
+   #    #  #    #  #  #    #          #####   ######  #    #   ####   #    #
+   #    #  ##   #  #   #  #           #    #  #       ##   #  #    #  #    #
+   #    #  # #  #  #    ##            #####   #####   # #  #  #       ######
+   #    #  #  # #  #    ##            #    #  #       #  # #  #       #    #
+   #    #  #   ##  #   #  #           #    #  #       #   ##  #    #  #    #
+    ####   #    #  #  #    #          #####   ######  #    #   ####   #    #
+
+   Version 5.1.3                      Based on the Byte Magazine Unix Benchmark
+
+   Multi-CPU version                  Version 5 revisions by Ian Smith,
+                                      Sunnyvale, CA, USA
+   January 13, 2011                   johantheghost at yahoo period com
+
+
+1 x Execl Throughput  1 2 3
+
+========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: localhost: GNU/Linux
+   OS: GNU/Linux -- 5.13.6-1-default -- #1 SMP Thu Jul 29 04:18:38 UTC 2021 (2d7b44d)
+   Machine: x86_64 (x86_64)
+   Language: en_US.utf8 (charmap="UTF-8", collate="UTF-8")
+   CPU 0: Intel Core Processor (Skylake, IBRS) (5616.0 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   CPU 1: Intel Core Processor (Skylake, IBRS) (5616.0 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   CPU 2: Intel Core Processor (Skylake, IBRS) (5616.0 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   CPU 3: Intel Core Processor (Skylake, IBRS) (5616.0 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   09:47:21  up   0:53,  0 users,  load average: 2.20, 4.27, 3.83; runlevel 3
+
+------------------------------------------------------------------------
+Benchmark Run: Fri Aug 27 2021 09:47:21 - 09:49:00
+4 CPUs in system; running 1 parallel copy of tests
+
+Execl Throughput                               2807.4 lps   (29.7 s, 2 samples)
+
+System Benchmarks Partial Index              BASELINE       RESULT    INDEX
+Execl Throughput                                 43.0       2807.4    652.9
+                                                                   ========
+System Benchmarks Index Score (Partial Only)                          652.9
+

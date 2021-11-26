@@ -1,0 +1,42 @@
+1632304453 run-mmtests: Start
+1632304453 run-mmtests: Iteration 0 start
+1632304454 sysbenchthread-bench: source-install
+1632304465 sysbenchthread-bench: source-installed
+1632304465 run-mmtests: begin sysbenchthread
+1632304467 sysbenchthread-bench: iteration 1
+1632304474 sysbenchthread-bench: iteration 2
+1632304481 sysbenchthread-bench: iteration 3
+1632304488 sysbenchthread-bench: iteration 4
+1632304494 sysbenchthread-bench: iteration 5
+1632304501 sysbenchthread-bench: iteration 6
+1632304508 sysbenchthread-bench: iteration 7
+1632304514 sysbenchthread-bench: iteration 1
+1632304521 sysbenchthread-bench: iteration 2
+1632304528 sysbenchthread-bench: iteration 3
+1632304535 sysbenchthread-bench: iteration 4
+1632304542 sysbenchthread-bench: iteration 5
+1632304548 sysbenchthread-bench: iteration 6
+1632304555 sysbenchthread-bench: iteration 7
+1632304562 sysbenchthread-bench: iteration 1
+1632304569 sysbenchthread-bench: iteration 2
+1632304575 sysbenchthread-bench: iteration 3
+1632304582 sysbenchthread-bench: iteration 4
+1632304589 sysbenchthread-bench: iteration 5
+1632304596 sysbenchthread-bench: iteration 6
+1632304602 sysbenchthread-bench: iteration 7
+1632304609 sysbenchthread-bench: iteration 1
+1632304616 sysbenchthread-bench: iteration 2
+1632304623 sysbenchthread-bench: iteration 3
+1632304629 sysbenchthread-bench: iteration 4
+1632304636 sysbenchthread-bench: iteration 5
+1632304643 sysbenchthread-bench: iteration 6
+1632304650 sysbenchthread-bench: iteration 7
+1632304657 sysbenchthread-bench: iteration 1
+1632304663 sysbenchthread-bench: iteration 2
+1632304670 sysbenchthread-bench: iteration 3
+1632304677 sysbenchthread-bench: iteration 4
+1632304684 sysbenchthread-bench: iteration 5
+1632304691 sysbenchthread-bench: iteration 6
+1632304697 sysbenchthread-bench: iteration 7
+1632304704 run-mmtests: Iteration 0 end
+1632304704 run-mmtests: End

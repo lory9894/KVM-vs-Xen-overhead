@@ -1,0 +1,10 @@
+                             CYCLICHACKBENCH_1      CYCLICHACKBENCH_2      CYCLICHACKBENCH_3CYCLICHACKBENCH_XENTRACECYCLICHACKBENCH_XENTRACE_ALL
+                                      opensuse               opensuse               opensuse               opensuse               opensuse
+Min       sample-anycpu        7.00 (   0.00%)        7.00 (   0.00%)        7.00 (   0.00%)        8.00 ( -14.29%)        8.00 ( -14.29%)
+Amean     sample-anycpu       12.85 (   0.00%)       12.85 (  -0.05%)       18.89 * -47.01%*       15.39 * -19.76%*       13.45 *  -4.67%*
+Stddev    sample-anycpu        4.44 (   0.00%)       13.53 (-204.55%)       20.98 (-372.34%)       15.10 (-239.91%)        6.41 ( -44.37%)
+CoeffVar  sample-anycpu       34.57 (   0.00%)      105.24 (-204.41%)      111.08 (-221.30%)       98.13 (-183.83%)       47.69 ( -37.93%)
+Max       sample-anycpu     2358.00 (   0.00%)     6970.00 (-195.59%)     2616.00 ( -10.94%)     3792.00 ( -60.81%)     3514.00 ( -49.02%)
+BAmean-50 sample-anycpu       11.55 (   0.00%)       11.47 (   0.66%)       11.67 (  -1.05%)       12.10 (  -4.77%)       12.05 (  -4.41%)
+BAmean-95 sample-anycpu       12.32 (   0.00%)       12.19 (   1.07%)       14.69 ( -19.25%)       13.67 ( -10.93%)       12.83 (  -4.10%)
+BAmean-99 sample-anycpu       12.56 (   0.00%)       12.43 (   0.99%)       18.04 ( -43.69%)       14.81 ( -17.95%)       13.11 (  -4.39%)

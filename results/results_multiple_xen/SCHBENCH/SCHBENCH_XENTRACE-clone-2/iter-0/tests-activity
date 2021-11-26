@@ -1,0 +1,9 @@
+1634989430 run-mmtests: Start
+1634989430 run-mmtests: Iteration 0 start
+1634989438 schbench-bench: source-install
+1634989464 schbench-bench: source-installed
+1634989464 run-mmtests: begin schbench
+1634989469 schbench-bench: 1
+1634989469 schbench-bench: iteration 1
+1634989503 run-mmtests: Iteration 0 end
+1634989504 run-mmtests: End

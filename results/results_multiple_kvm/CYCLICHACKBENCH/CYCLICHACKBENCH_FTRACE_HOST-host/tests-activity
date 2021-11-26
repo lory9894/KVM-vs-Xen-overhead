@@ -1,0 +1,15 @@
+1632901420 run-kvm: Booting VMs
+1632901502 run-kvm: VM opensusetumbleweed-1 IP 192.168.122.11
+1632901502 run-kvm: VM opensusetumbleweed-2 IP 192.168.122.12
+1632901502 run-kvm: VM opensusetumbleweed-3 IP 192.168.122.13
+1632901505 run-kvm: begin run-mmtests in VMs
+1632901510 run-kvm: state "mmtests_start"
+1632901510 run-kvm: sending token "mmtests_start"
+1632901518 run-kvm: state "test_do"
+1632901519 run-kvm: sending token "test_do"
+1632902145 run-kvm: state "test_done"
+1632902145 run-kvm: sending token "test_done"
+1632902146 run-kvm: state "mmtests_end"
+1632902146 run-kvm: sending token "mmtests_end"
+1632902152 run-kvm: run-mmtests in VMs end
+1632902153 run-kvm: Shutoff VMs

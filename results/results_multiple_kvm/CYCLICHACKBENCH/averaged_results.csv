@@ -1,0 +1,9 @@
+0,thread,BASELINE,FTRACE_HOST,FTRACEALL_HOST
+Min,sample-anycpu,2.33333,3,3
+Amean,sample-anycpu,12.6006,102.79,102.764
+Stddev,sample-anycpu,151.59,713.999,720.638
+CoeffVar,sample-anycpu,1203.04,695.364,701.702
+Max,sample-anycpu,21125,40415.3,37827.3
+BAmean-50,sample-anycpu,6.32989,8.40168,8.29292
+BAmean-95,sample-anycpu,7.11631,20.3261,20.0419
+BAmean-99,sample-anycpu,7.5124,42.6571,42.1628

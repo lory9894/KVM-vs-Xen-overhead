@@ -1,0 +1,18 @@
+start :: 1634574245
+test begin :: unixbench-dhry2reg 1634574256
+test end :: unixbench-dhry2reg 1634575050
+time :: unixbench-dhry2reg 1504.19 user 1.50 system 792.97 elapsed
+test begin :: unixbench-syscall 1634575050
+test end :: unixbench-syscall 1634575843
+time :: unixbench-syscall 1030.02 user 475.63 system 792.04 elapsed
+test begin :: unixbench-pipe 1634575843
+test end :: unixbench-pipe 1634576635
+time :: unixbench-pipe 765.82 user 740.03 system 791.85 elapsed
+test begin :: unixbench-spawn 1634576635
+test end :: unixbench-spawn 1634577235
+time :: unixbench-spawn 953.62 user 383.32 system 599.49 elapsed
+test begin :: unixbench-execl 1634577235
+test end :: unixbench-execl 1634577830
+time :: unixbench-execl 493.07 user 842.65 system 594.05 elapsed
+finish :: 1634577830
+status :: 0

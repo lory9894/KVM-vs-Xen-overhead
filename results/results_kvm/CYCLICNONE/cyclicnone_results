@@ -1,0 +1,10 @@
+                                   CYCLICNONE1            CYCLICNONE2            CYCLICNONE3 CYCLICNONE_FTRACE_HOSTCYCLICNONE_FTRACEALL_HOST CYCLICNONE_FTRACE_BOTHCYCLICNONE_FTRACE_GUEST
+                            opensusetumbleweed     opensusetumbleweed     opensusetumbleweed     opensusetumbleweed     opensusetumbleweed     opensusetumbleweed     opensusetumbleweed
+Min       sample-anycpu        3.00 (   0.00%)        3.00 (   0.00%)        3.00 (   0.00%)        5.00 ( -66.67%)        5.00 ( -66.67%)        3.00 (   0.00%)        5.00 ( -66.67%)
+Amean     sample-anycpu       65.64 (   0.00%)       69.46 *  -5.82%*       73.20 * -11.51%*       33.98 *  48.23%*       31.84 *  51.50%*       26.66 *  59.39%*       18.68 *  71.54%*
+Stddev    sample-anycpu       24.10 (   0.00%)       20.72 (  14.04%)       22.50 (   6.66%)       45.43 ( -88.48%)       38.00 ( -57.66%)      189.89 (-687.76%)       27.10 ( -12.44%)
+CoeffVar  sample-anycpu       36.72 (   0.00%)       29.83 (  18.77%)       30.74 (  16.29%)      133.69 (-264.06%)      119.37 (-225.07%)      712.29 (-1839.71%)      145.08 (-295.07%)
+Max       sample-anycpu     2611.00 (   0.00%)     2576.00 (   1.34%)     2465.00 (   5.59%)    11496.00 (-340.29%)    10391.00 (-297.97%)    63786.00 (-2342.97%)     8396.00 (-221.56%)
+BAmean-50 sample-anycpu       44.90 (   0.00%)       52.66 ( -17.29%)       56.73 ( -26.36%)       23.51 (  47.64%)       22.99 (  48.79%)        8.13 (  81.90%)        8.04 (  82.09%)
+BAmean-95 sample-anycpu       64.03 (   0.00%)       68.04 (  -6.27%)       72.00 ( -12.44%)       31.07 (  51.48%)       29.34 (  54.18%)       13.00 (  79.70%)       16.59 (  74.09%)
+BAmean-99 sample-anycpu       65.24 (   0.00%)       69.09 (  -5.89%)       72.88 ( -11.70%)       32.82 (  49.70%)       30.91 (  52.63%)       14.84 (  77.25%)       18.13 (  72.20%)

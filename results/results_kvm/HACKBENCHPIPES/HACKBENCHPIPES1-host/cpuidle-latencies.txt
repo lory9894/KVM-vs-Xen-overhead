@@ -1,0 +1,9 @@
+/sys/devices/system/cpu/cpu0/cpuidle/state0/latency:0
+/sys/devices/system/cpu/cpu0/cpuidle/state1/latency:2
+/sys/devices/system/cpu/cpu0/cpuidle/state2/latency:10
+/sys/devices/system/cpu/cpu0/cpuidle/state3/latency:70
+/sys/devices/system/cpu/cpu0/cpuidle/state4/latency:85
+/sys/devices/system/cpu/cpu0/cpuidle/state5/latency:124
+/sys/devices/system/cpu/cpu0/cpuidle/state6/latency:200
+/sys/devices/system/cpu/cpu0/cpuidle/state7/latency:480
+/sys/devices/system/cpu/cpu0/cpuidle/state8/latency:890

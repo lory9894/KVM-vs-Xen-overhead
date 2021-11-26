@@ -1,0 +1,6 @@
+start :: 1630221879
+test begin :: schbench 1630221881
+test end :: schbench 1630221974
+time :: schbench 86.49 user 0.09 system 91.86 elapsed
+finish :: 1630221974
+status :: 0

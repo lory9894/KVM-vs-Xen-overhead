@@ -1,0 +1,17 @@
+0,thread,BASELINE,FTRACE_HOST,FTRACEALL_HOST
+Min,unixbench-fsbuffer-w-1,103780,104180,105898
+Min,unixbench-fsbuffer-w-4,82080.2,64410.6,64396.4
+Hmean,unixbench-fsbuffer-w-1,104633,104980,106238
+Hmean,unixbench-fsbuffer-w-4,82689.7,65572.3,65715.2
+Stddev,unixbench-fsbuffer-w-1,814.909,831.134,344.062
+Stddev,unixbench-fsbuffer-w-4,665.856,1039.62,1383.01
+CoeffVar,unixbench-fsbuffer-w-1,0.783942,0.793872,0.323587
+CoeffVar,unixbench-fsbuffer-w-4,0.803672,1.59039,2.10316
+Max,unixbench-fsbuffer-w-1,105326,105832,106571
+Max,unixbench-fsbuffer-w-4,83396.8,66370.5,67073.1
+BHmean-50,unixbench-fsbuffer-w-1,105326,105832,106571
+BHmean-50,unixbench-fsbuffer-w-4,83396.8,66370.5,67073.1
+BHmean-95,unixbench-fsbuffer-w-1,105071,105386,106410
+BHmean-95,unixbench-fsbuffer-w-4,82998.8,66170.5,66395.1
+BHmean-99,unixbench-fsbuffer-w-1,105071,105386,106410
+BHmean-99,unixbench-fsbuffer-w-4,82998.8,66170.5,66395.1

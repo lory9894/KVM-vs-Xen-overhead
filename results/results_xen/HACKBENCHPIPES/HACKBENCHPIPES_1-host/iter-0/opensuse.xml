@@ -1,0 +1,64 @@
+<domain type='xen' id='1'>
+  <name>opensuse</name>
+  <uuid>630a8efc-255b-44ac-8fe0-3b539c7625ca</uuid>
+  <metadata>
+    <libosinfo:libosinfo xmlns:libosinfo="http://libosinfo.org/xmlns/libvirt/domain/1.0">
+      <libosinfo:os id="http://opensuse.org/opensuse/tumbleweed"/>
+    </libosinfo:libosinfo>
+  </metadata>
+  <memory unit='KiB'>8368128</memory>
+  <currentMemory unit='KiB'>8368128</currentMemory>
+  <vcpu placement='static'>4</vcpu>
+  <os>
+    <type arch='x86_64' machine='xenfv'>hvm</type>
+    <loader type='rom'>/usr/lib/xen/boot/hvmloader</loader>
+    <boot dev='hd'/>
+  </os>
+  <features>
+    <acpi/>
+    <apic/>
+    <pae/>
+  </features>
+  <clock offset='utc'/>
+  <on_poweroff>destroy</on_poweroff>
+  <on_reboot>restart</on_reboot>
+  <on_crash>destroy</on_crash>
+  <devices>
+    <emulator>/usr/lib/xen/bin/qemu-system-i386</emulator>
+    <disk type='file' device='disk'>
+      <driver name='qemu' type='qcow2'/>
+      <source file='/var/lib/libvirt/images/openSUSE-Leap-15.3-JeOS.x86_64-kvm-and-xen.qcow2'/>
+      <target dev='hda' bus='ide'/>
+      <address type='drive' controller='0' bus='0' target='0' unit='0'/>
+    </disk>
+    <controller type='xenbus' index='0'/>
+    <controller type='ide' index='0'/>
+    <interface type='network'>
+      <mac address='00:16:3e:64:09:4a'/>
+      <source network='default' portid='bf5c6532-08dc-40a1-ae6c-061553007041' bridge='virbr0'/>
+      <target dev='vif1.0-emu'/>
+      <model type='e1000'/>
+    </interface>
+    <serial type='pty'>
+      <source path='/dev/pts/2'/>
+      <target port='0'/>
+      <alias name='serial0'/>
+    </serial>
+    <console type='pty' tty='/dev/pts/2'>
+      <source path='/dev/pts/2'/>
+      <target type='serial' port='0'/>
+      <alias name='serial0'/>
+    </console>
+    <input type='tablet' bus='usb'/>
+    <input type='mouse' bus='ps2'/>
+    <input type='keyboard' bus='ps2'/>
+    <graphics type='vnc' port='5900' autoport='yes' listen='127.0.0.1'>
+      <listen type='address' address='127.0.0.1'/>
+    </graphics>
+    <video>
+      <model type='vga' vram='16384' heads='1' primary='yes'/>
+    </video>
+    <memballoon model='xen'/>
+  </devices>
+</domain>
+

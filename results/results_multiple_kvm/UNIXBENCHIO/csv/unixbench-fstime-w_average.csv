@@ -1,0 +1,17 @@
+0,thread,BASELINE,FTRACE_HOST,FTRACEALL_HOST
+Min,unixbench-fstime-w-1,407483,408273,411316
+Min,unixbench-fstime-w-4,320170,254695,256827
+Hmean,unixbench-fstime-w-1,409005,411249,413061
+Hmean,unixbench-fstime-w-4,321442,257477,261941
+Stddev,unixbench-fstime-w-1,1776.39,3263.03,1947.17
+Stddev,unixbench-fstime-w-4,1392.96,3581.11,5844.27
+CoeffVar,unixbench-fstime-w-1,0.434317,0.793593,0.470304
+CoeffVar,unixbench-fstime-w-4,0.433832,1.39358,2.23594
+Max,unixbench-fstime-w-1,410939,414288,415124
+Max,unixbench-fstime-w-4,322914,261035,267387
+BHmean-50,unixbench-fstime-w-1,410939,414288,415124
+BHmean-50,unixbench-fstime-w-4,322914,261035,267387
+BHmean-95,unixbench-fstime-w-1,409770,412754,413941
+BHmean-95,unixbench-fstime-w-4,322081,258895,264583
+BHmean-99,unixbench-fstime-w-1,409770,412754,413941
+BHmean-99,unixbench-fstime-w-4,322081,258895,264583

@@ -1,0 +1,1291 @@
+start :: 1635453449
+VMs up :: 1635453545
+vms ready :: 1635453546
+version :: 3f44fe526f04a19142faa66bc84357546e6aa6e8
+arch :: x86_64
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: enp2s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether e0:d5:5e:8c:81:a5 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.1.6/24 brd 192.168.1.255 scope global noprefixroute enp2s0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::e2d5:5eff:fe8c:81a5/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+3: virbr0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether 52:54:00:28:14:1f brd ff:ff:ff:ff:ff:ff
+    inet 192.168.122.1/24 brd 192.168.122.255 scope global virbr0
+       valid_lft forever preferred_lft forever
+4: vnet0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master virbr0 state UNKNOWN group default qlen 1000
+    link/ether fe:54:00:9c:5d:32 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::fc54:ff:fe9c:5d32/64 scope link 
+       valid_lft forever preferred_lft forever
+5: vnet1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master virbr0 state UNKNOWN group default qlen 1000
+    link/ether fe:54:00:a9:48:9e brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::fc54:ff:fea9:489e/64 scope link 
+       valid_lft forever preferred_lft forever
+6: vnet2: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue master virbr0 state UNKNOWN group default qlen 1000
+    link/ether fe:54:00:43:6b:d0 brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::fc54:ff:fe43:6bd0/64 scope link 
+       valid_lft forever preferred_lft forever
+mount :: start
+proc on /proc type proc (rw,nosuid,nodev,noexec,relatime)
+sysfs on /sys type sysfs (rw,nosuid,nodev,noexec,relatime)
+devtmpfs on /dev type devtmpfs (rw,nosuid,size=8134656k,nr_inodes=2033664,mode=755,inode64)
+securityfs on /sys/kernel/security type securityfs (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /dev/shm type tmpfs (rw,nosuid,nodev,inode64)
+devpts on /dev/pts type devpts (rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000)
+tmpfs on /run type tmpfs (rw,nosuid,nodev,size=3261212k,nr_inodes=819200,mode=755,inode64)
+cgroup2 on /sys/fs/cgroup type cgroup2 (rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot)
+pstore on /sys/fs/pstore type pstore (rw,nosuid,nodev,noexec,relatime)
+efivarfs on /sys/firmware/efi/efivars type efivarfs (rw,nosuid,nodev,noexec,relatime)
+none on /sys/fs/bpf type bpf (rw,nosuid,nodev,noexec,relatime,mode=700)
+/dev/sda4 on / type btrfs (rw,relatime,space_cache,subvolid=267,subvol=/@/.snapshots/1/snapshot)
+systemd-1 on /proc/sys/fs/binfmt_misc type autofs (rw,relatime,fd=30,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=11956)
+debugfs on /sys/kernel/debug type debugfs (rw,nosuid,nodev,noexec,relatime)
+hugetlbfs on /dev/hugepages type hugetlbfs (rw,relatime,pagesize=2M)
+mqueue on /dev/mqueue type mqueue (rw,nosuid,nodev,noexec,relatime)
+tracefs on /sys/kernel/tracing type tracefs (rw,nosuid,nodev,noexec,relatime)
+tmpfs on /tmp type tmpfs (rw,nosuid,nodev,size=8153028k,nr_inodes=409600,inode64)
+configfs on /sys/kernel/config type configfs (rw,nosuid,nodev,noexec,relatime)
+fusectl on /sys/fs/fuse/connections type fusectl (rw,nosuid,nodev,noexec,relatime)
+/dev/sda4 on /.snapshots type btrfs (rw,relatime,space_cache,subvolid=266,subvol=/@/.snapshots)
+/dev/sda4 on /boot/grub2/i386-pc type btrfs (rw,relatime,space_cache,subvolid=265,subvol=/@/boot/grub2/i386-pc)
+/dev/sda4 on /opt type btrfs (rw,relatime,space_cache,subvolid=262,subvol=/@/opt)
+/dev/sda4 on /usr/local type btrfs (rw,relatime,space_cache,subvolid=259,subvol=/@/usr/local)
+/dev/sda4 on /srv type btrfs (rw,relatime,space_cache,subvolid=260,subvol=/@/srv)
+/dev/sda4 on /boot/grub2/x86_64-efi type btrfs (rw,relatime,space_cache,subvolid=264,subvol=/@/boot/grub2/x86_64-efi)
+/dev/sda4 on /root type btrfs (rw,relatime,space_cache,subvolid=261,subvol=/@/root)
+/dev/sda4 on /home type btrfs (rw,relatime,space_cache,subvolid=263,subvol=/@/home)
+/dev/sda4 on /var type btrfs (rw,relatime,space_cache,subvolid=258,subvol=/@/var)
+/dev/sda2 on /boot/efi type vfat (rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro)
+tmpfs on /run/user/1000 type tmpfs (rw,nosuid,nodev,relatime,size=1630604k,nr_inodes=407651,mode=700,uid=1000,gid=100,inode64)
+gvfsd-fuse on /run/user/1000/gvfs type fuse.gvfsd-fuse (rw,nosuid,nodev,relatime,user_id=1000,group_id=100)
+tracefs on /sys/kernel/debug/tracing type tracefs (rw,nosuid,nodev,noexec,relatime)
+/proc/mounts :: start
+proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
+sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0
+devtmpfs /dev devtmpfs rw,nosuid,size=8134656k,nr_inodes=2033664,mode=755,inode64 0 0
+securityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /dev/shm tmpfs rw,nosuid,nodev,inode64 0 0
+devpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0
+tmpfs /run tmpfs rw,nosuid,nodev,size=3261212k,nr_inodes=819200,mode=755,inode64 0 0
+cgroup2 /sys/fs/cgroup cgroup2 rw,nosuid,nodev,noexec,relatime,nsdelegate,memory_recursiveprot 0 0
+pstore /sys/fs/pstore pstore rw,nosuid,nodev,noexec,relatime 0 0
+efivarfs /sys/firmware/efi/efivars efivarfs rw,nosuid,nodev,noexec,relatime 0 0
+none /sys/fs/bpf bpf rw,nosuid,nodev,noexec,relatime,mode=700 0 0
+/dev/sda4 / btrfs rw,relatime,space_cache,subvolid=267,subvol=/@/.snapshots/1/snapshot 0 0
+systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=30,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=11956 0 0
+debugfs /sys/kernel/debug debugfs rw,nosuid,nodev,noexec,relatime 0 0
+hugetlbfs /dev/hugepages hugetlbfs rw,relatime,pagesize=2M 0 0
+mqueue /dev/mqueue mqueue rw,nosuid,nodev,noexec,relatime 0 0
+tracefs /sys/kernel/tracing tracefs rw,nosuid,nodev,noexec,relatime 0 0
+tmpfs /tmp tmpfs rw,nosuid,nodev,size=8153028k,nr_inodes=409600,inode64 0 0
+configfs /sys/kernel/config configfs rw,nosuid,nodev,noexec,relatime 0 0
+fusectl /sys/fs/fuse/connections fusectl rw,nosuid,nodev,noexec,relatime 0 0
+/dev/sda4 /.snapshots btrfs rw,relatime,space_cache,subvolid=266,subvol=/@/.snapshots 0 0
+/dev/sda4 /boot/grub2/i386-pc btrfs rw,relatime,space_cache,subvolid=265,subvol=/@/boot/grub2/i386-pc 0 0
+/dev/sda4 /opt btrfs rw,relatime,space_cache,subvolid=262,subvol=/@/opt 0 0
+/dev/sda4 /usr/local btrfs rw,relatime,space_cache,subvolid=259,subvol=/@/usr/local 0 0
+/dev/sda4 /srv btrfs rw,relatime,space_cache,subvolid=260,subvol=/@/srv 0 0
+/dev/sda4 /boot/grub2/x86_64-efi btrfs rw,relatime,space_cache,subvolid=264,subvol=/@/boot/grub2/x86_64-efi 0 0
+/dev/sda4 /root btrfs rw,relatime,space_cache,subvolid=261,subvol=/@/root 0 0
+/dev/sda4 /home btrfs rw,relatime,space_cache,subvolid=263,subvol=/@/home 0 0
+/dev/sda4 /var btrfs rw,relatime,space_cache,subvolid=258,subvol=/@/var 0 0
+/dev/sda2 /boot/efi vfat rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro 0 0
+tmpfs /run/user/1000 tmpfs rw,nosuid,nodev,relatime,size=1630604k,nr_inodes=407651,mode=700,uid=1000,gid=100,inode64 0 0
+gvfsd-fuse /run/user/1000/gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=1000,group_id=100 0 0
+tracefs /sys/kernel/debug/tracing tracefs rw,nosuid,nodev,noexec,relatime 0 0
+test begin :: 1635454082
+file start :: /proc/vmstat
+nr_free_pages 89839
+nr_zone_inactive_anon 1019091
+nr_zone_active_anon 2248790
+nr_zone_inactive_file 403115
+nr_zone_active_file 135079
+nr_zone_unevictable 0
+nr_zone_write_pending 60
+nr_mlock 0
+nr_bounce 0
+nr_zspages 0
+nr_free_cma 0
+numa_hit 14379683
+numa_miss 0
+numa_foreign 0
+numa_interleave 2484
+numa_local 14379683
+numa_other 0
+nr_inactive_anon 1019091
+nr_active_anon 2248790
+nr_inactive_file 403115
+nr_active_file 135079
+nr_unevictable 0
+nr_slab_reclaimable 23639
+nr_slab_unreclaimable 37436
+nr_isolated_anon 0
+nr_isolated_file 0
+workingset_nodes 76822
+workingset_refault_anon 489432
+workingset_refault_file 2650240
+workingset_activate_anon 406908
+workingset_activate_file 709617
+workingset_restore_anon 59
+workingset_restore_file 20174
+workingset_nodereclaim 10624
+nr_anon_pages 3249917
+nr_mapped 14544
+nr_file_pages 598080
+nr_dirty 13
+nr_writeback 0
+nr_writeback_temp 0
+nr_shmem 2127
+nr_shmem_hugepages 0
+nr_shmem_pmdmapped 0
+nr_file_hugepages 0
+nr_file_pmdmapped 0
+nr_anon_transparent_hugepages 3823
+nr_vmscan_write 725826
+nr_vmscan_immediate_reclaim 24953
+nr_dirtied 5584247
+nr_written 6308912
+nr_kernel_misc_reclaimable 0
+nr_foll_pin_acquired 0
+nr_foll_pin_released 0
+nr_kernel_stack 10068
+nr_page_table_pages 9976
+nr_swapcached 57650
+nr_dirty_threshold 117002
+nr_dirty_background_threshold 58429
+pgpgin 17853451
+pgpgout 25268821
+pswpin 489436
+pswpout 725826
+pgalloc_dma 1
+pgalloc_dma32 1631675
+pgalloc_normal 12946635
+pgalloc_movable 0
+allocstall_dma 0
+allocstall_dma32 0
+allocstall_normal 692
+allocstall_movable 9165
+pgskip_dma 0
+pgskip_dma32 0
+pgskip_normal 66765
+pgskip_movable 0
+pgfree 18756751
+pgactivate 3540126
+pgdeactivate 1991735
+pglazyfree 0
+pgfault 2679130
+pgmajfault 73581
+pglazyfreed 0
+pgrefill 2007362
+pgreuse 121672
+pgsteal_kswapd 6693601
+pgsteal_direct 2790561
+pgscan_kswapd 9033889
+pgscan_direct 4336758
+pgscan_direct_throttle 0
+pgscan_anon 4267237
+pgscan_file 9103410
+pgsteal_anon 572435
+pgsteal_file 8911727
+zone_reclaim_failed 0
+pginodesteal 0
+slabs_scanned 28800
+kswapd_inodesteal 0
+kswapd_low_wmark_hit_quickly 618
+kswapd_high_wmark_hit_quickly 295
+pageoutrun 1361
+pgrotated 608978
+drop_pagecache 0
+drop_slab 0
+oom_kill 0
+numa_pte_updates 0
+numa_huge_pte_updates 0
+numa_hint_faults 0
+numa_hint_faults_local 0
+numa_pages_migrated 0
+pgmigrate_success 1361239
+pgmigrate_fail 42118
+thp_migration_success 0
+thp_migration_fail 0
+thp_migration_split 0
+compact_migrate_scanned 10014218
+compact_free_scanned 12168559
+compact_isolated 2962355
+compact_stall 5797
+compact_fail 3978
+compact_success 1819
+compact_daemon_wake 248
+compact_daemon_migrate_scanned 201258
+compact_daemon_free_scanned 1285163
+htlb_buddy_alloc_success 0
+htlb_buddy_alloc_fail 0
+cma_alloc_success 0
+cma_alloc_fail 0
+unevictable_pgs_culled 13092
+unevictable_pgs_scanned 0
+unevictable_pgs_rescued 204
+unevictable_pgs_mlocked 204
+unevictable_pgs_munlocked 204
+unevictable_pgs_cleared 0
+unevictable_pgs_stranded 0
+thp_fault_alloc 5175
+thp_fault_fallback 1240
+thp_fault_fallback_charge 0
+thp_collapse_alloc 50
+thp_collapse_alloc_failed 0
+thp_file_alloc 0
+thp_file_fallback 0
+thp_file_fallback_charge 0
+thp_file_mapped 0
+thp_split_page 1240
+thp_split_page_failed 0
+thp_deferred_split_page 1334
+thp_split_pmd 1610
+thp_split_pud 0
+thp_zero_page_alloc 1
+thp_zero_page_alloc_failed 0
+thp_swpout 0
+thp_swpout_fallback 1240
+balloon_inflate 0
+balloon_deflate 0
+balloon_migrate 0
+swap_ra 416888
+swap_ra_hit 412527
+direct_map_level2_splits 116
+direct_map_level3_splits 6
+nr_unstable 0
+file start :: /proc/zoneinfo
+Node 0, zone      DMA
+  per-node stats
+      nr_inactive_anon 1019091
+      nr_active_anon 2248790
+      nr_inactive_file 403115
+      nr_active_file 135079
+      nr_unevictable 0
+      nr_slab_reclaimable 23639
+      nr_slab_unreclaimable 37436
+      nr_isolated_anon 0
+      nr_isolated_file 0
+      workingset_nodes 76822
+      workingset_refault_anon 489432
+      workingset_refault_file 2650240
+      workingset_activate_anon 406908
+      workingset_activate_file 709617
+      workingset_restore_anon 59
+      workingset_restore_file 20174
+      workingset_nodereclaim 10624
+      nr_anon_pages 3249917
+      nr_mapped    14544
+      nr_file_pages 598080
+      nr_dirty     13
+      nr_writeback 0
+      nr_writeback_temp 0
+      nr_shmem     2127
+      nr_shmem_hugepages 0
+      nr_shmem_pmdmapped 0
+      nr_file_hugepages 0
+      nr_file_pmdmapped 0
+      nr_anon_transparent_hugepages 3823
+      nr_vmscan_write 725826
+      nr_vmscan_immediate_reclaim 24953
+      nr_dirtied   5584247
+      nr_written   6308912
+      nr_kernel_misc_reclaimable 0
+      nr_foll_pin_acquired 0
+      nr_foll_pin_released 0
+      nr_kernel_stack 10068
+      nr_page_table_pages 9976
+      nr_swapcached 57650
+  pages free     3328
+        min      15
+        low      18
+        high     21
+        spanned  4095
+        present  3998
+        managed  3840
+        cma      0
+        protection: (0, 2187, 15908, 15908, 15908)
+      nr_free_pages 3328
+      nr_zone_inactive_anon 0
+      nr_zone_active_anon 0
+      nr_zone_inactive_file 0
+      nr_zone_active_file 0
+      nr_zone_unevictable 0
+      nr_zone_write_pending 0
+      nr_mlock     0
+      nr_bounce    0
+      nr_zspages   0
+      nr_free_cma  0
+      numa_hit     1
+      numa_miss    0
+      numa_foreign 0
+      numa_interleave 1
+      numa_local   1
+      numa_other   0
+  pagesets
+    cpu: 0
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+    cpu: 1
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+    cpu: 2
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+    cpu: 3
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+    cpu: 4
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+    cpu: 5
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+  node_unreclaimable:  0
+  start_pfn:           1
+Node 0, zone    DMA32
+  pages free     23433
+        min      2296
+        low      2870
+        high     3444
+        spanned  1044480
+        present  576603
+        managed  560101
+        cma      0
+        protection: (0, 0, 13720, 13720, 13720)
+      nr_free_pages 23433
+      nr_zone_inactive_anon 168932
+      nr_zone_active_anon 281591
+      nr_zone_inactive_file 60803
+      nr_zone_active_file 20410
+      nr_zone_unevictable 0
+      nr_zone_write_pending 14
+      nr_mlock     0
+      nr_bounce    0
+      nr_zspages   0
+      nr_free_cma  0
+      numa_hit     1631675
+      numa_miss    0
+      numa_foreign 0
+      numa_interleave 1
+      numa_local   1631675
+      numa_other   0
+  pagesets
+    cpu: 0
+              count: 32
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+    cpu: 1
+              count: 313
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+    cpu: 2
+              count: 170
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+    cpu: 3
+              count: 251
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+    cpu: 4
+              count: 337
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+    cpu: 5
+              count: 276
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+  node_unreclaimable:  0
+  start_pfn:           4096
+Node 0, zone   Normal
+  pages free     63078
+        min      14583
+        low      18228
+        high     21873
+        spanned  3596288
+        present  3596288
+        managed  3512572
+        cma      0
+        protection: (0, 0, 0, 0, 0)
+      nr_free_pages 63078
+      nr_zone_inactive_anon 850159
+      nr_zone_active_anon 1967199
+      nr_zone_inactive_file 342312
+      nr_zone_active_file 114669
+      nr_zone_unevictable 0
+      nr_zone_write_pending 46
+      nr_mlock     0
+      nr_bounce    0
+      nr_zspages   0
+      nr_free_cma  0
+      numa_hit     12748007
+      numa_miss    0
+      numa_foreign 0
+      numa_interleave 2482
+      numa_local   12748007
+      numa_other   0
+  pagesets
+    cpu: 0
+              count: 726
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+    cpu: 1
+              count: 348
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+    cpu: 2
+              count: 436
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+    cpu: 3
+              count: 381
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+    cpu: 4
+              count: 2146
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+    cpu: 5
+              count: 231
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+  node_unreclaimable:  0
+  start_pfn:           1048576
+Node 0, zone  Movable
+  pages free     0
+        min      0
+        low      0
+        high     0
+        spanned  0
+        present  0
+        managed  0
+        cma      0
+        protection: (0, 0, 0, 0, 0)
+Node 0, zone   Device
+  pages free     0
+        min      0
+        low      0
+        high     0
+        spanned  0
+        present  0
+        managed  0
+        cma      0
+        protection: (0, 0, 0, 0, 0)
+file start :: /proc/meminfo
+MemTotal:       16306052 kB
+MemFree:          359104 kB
+MemAvailable:    2303188 kB
+Buffers:              12 kB
+Cached:          2161708 kB
+SwapCached:       230600 kB
+Active:          9535476 kB
+Inactive:        5688628 kB
+Active(anon):    8995160 kB
+Inactive(anon):  4076168 kB
+Active(file):     540316 kB
+Inactive(file):  1612460 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:      415128572 kB
+SwapFree:       414564232 kB
+Dirty:                52 kB
+Writeback:             0 kB
+AnonPages:      12999668 kB
+Mapped:            58176 kB
+Shmem:              8508 kB
+KReclaimable:      94556 kB
+Slab:             244300 kB
+SReclaimable:      94556 kB
+SUnreclaim:       149744 kB
+KernelStack:       10120 kB
+PageTables:        39904 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    423281596 kB
+Committed_AS:   17462472 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      150156 kB
+VmallocChunk:          0 kB
+Percpu:             4416 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:   7829504 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      262508 kB
+DirectMap2M:     9105408 kB
+DirectMap1G:     7340032 kB
+file start :: /proc/schedstat
+version 15
+timestamp 4295107474
+cpu0 0 0 0 0 0 0 164627474633 12445280247 869137
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cpu1 0 0 0 0 0 0 154244200433 10848900862 808082
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cpu2 0 0 0 0 0 0 135729575233 11858125167 863215
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cpu3 0 0 0 0 0 0 149526346607 11713687561 846546
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cpu4 0 0 0 0 0 0 128839070283 11659989203 989513
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cpu5 0 0 0 0 0 0 125311270483 11226676730 846673
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+file start :: /proc/diskstats
+   8       0 sda 131915 417410 35694211 3411465 39473 716806 50537642 7466487 0 499316 10907313 0 0 0 0 468 29360
+   8       1 sda1 38 0 304 1411 0 0 0 0 0 1424 1411 0 0 0 0 0 0
+   8       2 sda2 162 26 10758 1103 2 0 2 0 0 1016 1104 0 0 0 0 0 0
+   8       3 sda3 73094 416402 3920432 647976 10150 715676 5806608 1477185 0 274500 2125162 0 0 0 0 0 0
+   8       4 sda4 58471 982 31758208 2759327 29321 1130 44731032 5989301 0 468816 8748629 0 0 0 0 0 0
+   8      16 sdb 242 0 12685 857 0 0 0 0 0 636 857 0 0 0 0 0 0
+   8      17 sdb1 58 0 4176 226 0 0 0 0 0 208 226 0 0 0 0 0 0
+   8      18 sdb2 58 0 4176 253 0 0 0 0 0 204 253 0 0 0 0 0 0
+recvd token :: "mmtests_start" 1635454103
+enter state :: "mmtests_start" 1635454103
+recvd token :: "mmtests_start" 1635454106
+recvd token :: "mmtests_start" 1635454111
+sent token :: "mmtests_start" 1635454112
+recvd token :: "test_do" 1635454141
+enter state :: "test_do" 1635454141
+recvd token :: "test_do" 1635454142
+recvd token :: "test_do" 1635454142
+sent token :: "test_do" 1635454142
+recvd token :: "iteration_begin" 1635454142
+enter state :: "iteration_begin" 1635454142
+recvd token :: "iteration_begin" 1635454142
+recvd token :: "iteration_begin" 1635454143
+sent token :: "iteration_begin" 1635454143
+recvd token :: "iteration_end" 1635454177
+enter state :: "iteration_end" 1635454177
+recvd token :: "iteration_end" 1635454193
+recvd token :: "iteration_end" 1635454197
+sent token :: "iteration_end" 1635454198
+recvd token :: "iteration_begin" 1635454198
+enter state :: "iteration_begin" 1635454198
+recvd token :: "iteration_begin" 1635454198
+recvd token :: "iteration_begin" 1635454198
+sent token :: "iteration_begin" 1635454198
+recvd token :: "iteration_end" 1635454232
+enter state :: "iteration_end" 1635454232
+recvd token :: "iteration_end" 1635454234
+recvd token :: "iteration_end" 1635454244
+sent token :: "iteration_end" 1635454244
+recvd token :: "iteration_begin" 1635454244
+enter state :: "iteration_begin" 1635454244
+recvd token :: "iteration_begin" 1635454244
+recvd token :: "iteration_begin" 1635454244
+sent token :: "iteration_begin" 1635454244
+recvd token :: "iteration_end" 1635454281
+enter state :: "iteration_end" 1635454281
+recvd token :: "iteration_end" 1635454293
+recvd token :: "iteration_end" 1635454293
+sent token :: "iteration_end" 1635454293
+recvd token :: "iteration_begin" 1635454293
+enter state :: "iteration_begin" 1635454293
+recvd token :: "iteration_begin" 1635454293
+recvd token :: "iteration_begin" 1635454293
+sent token :: "iteration_begin" 1635454293
+recvd token :: "iteration_end" 1635454329
+enter state :: "iteration_end" 1635454329
+recvd token :: "iteration_end" 1635454334
+recvd token :: "iteration_end" 1635454334
+sent token :: "iteration_end" 1635454334
+recvd token :: "iteration_begin" 1635454334
+enter state :: "iteration_begin" 1635454334
+recvd token :: "iteration_begin" 1635454334
+recvd token :: "iteration_begin" 1635454334
+sent token :: "iteration_begin" 1635454334
+recvd token :: "iteration_end" 1635454373
+enter state :: "iteration_end" 1635454373
+recvd token :: "iteration_end" 1635454375
+recvd token :: "iteration_end" 1635454376
+sent token :: "iteration_end" 1635454376
+recvd token :: "iteration_begin" 1635454376
+enter state :: "iteration_begin" 1635454376
+recvd token :: "iteration_begin" 1635454376
+recvd token :: "iteration_begin" 1635454376
+sent token :: "iteration_begin" 1635454376
+recvd token :: "iteration_end" 1635454413
+enter state :: "iteration_end" 1635454413
+recvd token :: "iteration_end" 1635454414
+recvd token :: "iteration_end" 1635454426
+sent token :: "iteration_end" 1635454426
+recvd token :: "iteration_begin" 1635454426
+enter state :: "iteration_begin" 1635454426
+recvd token :: "iteration_begin" 1635454426
+recvd token :: "iteration_begin" 1635454426
+sent token :: "iteration_begin" 1635454426
+recvd token :: "iteration_end" 1635454468
+enter state :: "iteration_end" 1635454468
+recvd token :: "iteration_end" 1635454468
+recvd token :: "iteration_end" 1635454468
+sent token :: "iteration_end" 1635454468
+recvd token :: "iteration_begin" 1635454468
+enter state :: "iteration_begin" 1635454468
+recvd token :: "iteration_begin" 1635454468
+recvd token :: "iteration_begin" 1635454468
+sent token :: "iteration_begin" 1635454468
+recvd token :: "iteration_end" 1635454492
+enter state :: "iteration_end" 1635454492
+recvd token :: "iteration_end" 1635454493
+recvd token :: "iteration_end" 1635454495
+sent token :: "iteration_end" 1635454495
+recvd token :: "iteration_begin" 1635454495
+enter state :: "iteration_begin" 1635454495
+recvd token :: "iteration_begin" 1635454495
+recvd token :: "iteration_begin" 1635454495
+sent token :: "iteration_begin" 1635454496
+recvd token :: "iteration_end" 1635454522
+enter state :: "iteration_end" 1635454522
+recvd token :: "iteration_end" 1635454523
+recvd token :: "iteration_end" 1635454524
+sent token :: "iteration_end" 1635454524
+recvd token :: "iteration_begin" 1635454524
+enter state :: "iteration_begin" 1635454524
+recvd token :: "iteration_begin" 1635454524
+recvd token :: "iteration_begin" 1635454524
+sent token :: "iteration_begin" 1635454524
+recvd token :: "iteration_end" 1635454552
+enter state :: "iteration_end" 1635454552
+recvd token :: "iteration_end" 1635454552
+recvd token :: "iteration_end" 1635454554
+sent token :: "iteration_end" 1635454554
+recvd token :: "iteration_begin" 1635454554
+enter state :: "iteration_begin" 1635454554
+recvd token :: "iteration_begin" 1635454554
+recvd token :: "iteration_begin" 1635454554
+sent token :: "iteration_begin" 1635454554
+recvd token :: "iteration_end" 1635454580
+enter state :: "iteration_end" 1635454580
+recvd token :: "iteration_end" 1635454581
+recvd token :: "iteration_end" 1635454583
+sent token :: "iteration_end" 1635454584
+recvd token :: "iteration_begin" 1635454584
+enter state :: "iteration_begin" 1635454584
+recvd token :: "iteration_begin" 1635454584
+recvd token :: "iteration_begin" 1635454584
+sent token :: "iteration_begin" 1635454584
+recvd token :: "iteration_end" 1635454610
+enter state :: "iteration_end" 1635454610
+recvd token :: "iteration_end" 1635454613
+recvd token :: "iteration_end" 1635454613
+sent token :: "iteration_end" 1635454613
+recvd token :: "iteration_begin" 1635454613
+enter state :: "iteration_begin" 1635454613
+recvd token :: "iteration_begin" 1635454613
+recvd token :: "iteration_begin" 1635454613
+sent token :: "iteration_begin" 1635454613
+recvd token :: "iteration_end" 1635454640
+enter state :: "iteration_end" 1635454640
+recvd token :: "iteration_end" 1635454643
+recvd token :: "iteration_end" 1635454643
+sent token :: "iteration_end" 1635454643
+recvd token :: "iteration_begin" 1635454643
+enter state :: "iteration_begin" 1635454643
+recvd token :: "iteration_begin" 1635454643
+recvd token :: "iteration_begin" 1635454643
+sent token :: "iteration_begin" 1635454643
+recvd token :: "iteration_end" 1635454671
+enter state :: "iteration_end" 1635454671
+recvd token :: "iteration_end" 1635454673
+recvd token :: "iteration_end" 1635454673
+sent token :: "iteration_end" 1635454673
+recvd token :: "iteration_begin" 1635454673
+enter state :: "iteration_begin" 1635454673
+recvd token :: "iteration_begin" 1635454673
+recvd token :: "iteration_begin" 1635454673
+sent token :: "iteration_begin" 1635454673
+recvd token :: "iteration_end" 1635454700
+enter state :: "iteration_end" 1635454700
+recvd token :: "iteration_end" 1635454701
+recvd token :: "iteration_end" 1635454702
+sent token :: "iteration_end" 1635454702
+recvd token :: "iteration_begin" 1635454702
+enter state :: "iteration_begin" 1635454702
+recvd token :: "iteration_begin" 1635454702
+recvd token :: "iteration_begin" 1635454702
+sent token :: "iteration_begin" 1635454702
+recvd token :: "iteration_end" 1635454727
+enter state :: "iteration_end" 1635454727
+recvd token :: "iteration_end" 1635454731
+recvd token :: "iteration_end" 1635454731
+sent token :: "iteration_end" 1635454731
+recvd token :: "iteration_begin" 1635454731
+enter state :: "iteration_begin" 1635454731
+recvd token :: "iteration_begin" 1635454731
+recvd token :: "iteration_begin" 1635454731
+sent token :: "iteration_begin" 1635454731
+recvd token :: "iteration_end" 1635454759
+enter state :: "iteration_end" 1635454759
+recvd token :: "iteration_end" 1635454760
+recvd token :: "iteration_end" 1635454760
+sent token :: "iteration_end" 1635454760
+recvd token :: "iteration_begin" 1635454760
+enter state :: "iteration_begin" 1635454760
+recvd token :: "iteration_begin" 1635454760
+recvd token :: "iteration_begin" 1635454760
+sent token :: "iteration_begin" 1635454760
+recvd token :: "iteration_end" 1635454783
+enter state :: "iteration_end" 1635454783
+recvd token :: "iteration_end" 1635454788
+recvd token :: "iteration_end" 1635454789
+sent token :: "iteration_end" 1635454789
+recvd token :: "iteration_begin" 1635454789
+enter state :: "iteration_begin" 1635454789
+recvd token :: "iteration_begin" 1635454789
+recvd token :: "iteration_begin" 1635454789
+sent token :: "iteration_begin" 1635454790
+recvd token :: "iteration_end" 1635454814
+enter state :: "iteration_end" 1635454814
+recvd token :: "iteration_end" 1635454814
+recvd token :: "iteration_end" 1635454817
+sent token :: "iteration_end" 1635454817
+recvd token :: "iteration_begin" 1635454817
+enter state :: "iteration_begin" 1635454817
+recvd token :: "iteration_begin" 1635454817
+recvd token :: "iteration_begin" 1635454817
+sent token :: "iteration_begin" 1635454817
+recvd token :: "iteration_end" 1635454842
+enter state :: "iteration_end" 1635454842
+recvd token :: "iteration_end" 1635454847
+recvd token :: "iteration_end" 1635454848
+sent token :: "iteration_end" 1635454848
+recvd token :: "iteration_begin" 1635454848
+enter state :: "iteration_begin" 1635454848
+recvd token :: "iteration_begin" 1635454848
+recvd token :: "iteration_begin" 1635454848
+sent token :: "iteration_begin" 1635454848
+recvd token :: "iteration_end" 1635454876
+enter state :: "iteration_end" 1635454876
+recvd token :: "iteration_end" 1635454877
+recvd token :: "iteration_end" 1635454878
+sent token :: "iteration_end" 1635454878
+recvd token :: "test_done" 1635455236
+enter state :: "test_done" 1635455236
+recvd token :: "test_done" 1635455279
+recvd token :: "test_done" 1635455304
+sent token :: "test_done" 1635455304
+recvd token :: "mmtests_end" 1635455306
+enter state :: "mmtests_end" 1635455306
+recvd token :: "mmtests_end" 1635455306
+recvd token :: "mmtests_end" 1635455306
+sent token :: "mmtests_end" 1635455306
+file end :: /proc/vmstat
+nr_free_pages 43052
+nr_zone_inactive_anon 590193
+nr_zone_active_anon 2571393
+nr_zone_inactive_file 593409
+nr_zone_active_file 66518
+nr_zone_unevictable 0
+nr_zone_write_pending 44061
+nr_mlock 0
+nr_bounce 0
+nr_zspages 0
+nr_free_cma 0
+numa_hit 39285823
+numa_miss 0
+numa_foreign 0
+numa_interleave 2484
+numa_local 39285823
+numa_other 0
+nr_inactive_anon 590193
+nr_active_anon 2571393
+nr_inactive_file 593409
+nr_active_file 66518
+nr_unevictable 0
+nr_slab_reclaimable 53768
+nr_slab_unreclaimable 37882
+nr_isolated_anon 0
+nr_isolated_file 0
+workingset_nodes 276389
+workingset_refault_anon 511845
+workingset_refault_file 13247522
+workingset_activate_anon 416870
+workingset_activate_file 824015
+workingset_restore_anon 9754
+workingset_restore_file 35860
+workingset_nodereclaim 13956
+nr_anon_pages 3148063
+nr_mapped 7901
+nr_file_pages 684173
+nr_dirty 44061
+nr_writeback 0
+nr_writeback_temp 0
+nr_shmem 1668
+nr_shmem_hugepages 0
+nr_shmem_pmdmapped 0
+nr_file_hugepages 0
+nr_file_pmdmapped 0
+nr_anon_transparent_hugepages 3655
+nr_vmscan_write 850819
+nr_vmscan_immediate_reclaim 26227
+nr_dirtied 18824256
+nr_written 19629787
+nr_kernel_misc_reclaimable 0
+nr_foll_pin_acquired 0
+nr_foll_pin_released 0
+nr_kernel_stack 8960
+nr_page_table_pages 9882
+nr_swapcached 22540
+nr_dirty_threshold 131988
+nr_dirty_background_threshold 65913
+pgpgin 61798127
+pgpgout 78612413
+pswpin 511845
+pswpout 850819
+pgalloc_dma 1
+pgalloc_dma32 4945309
+pgalloc_normal 34539141
+pgalloc_movable 0
+allocstall_dma 0
+allocstall_dma32 0
+allocstall_normal 801
+allocstall_movable 9741
+pgskip_dma 0
+pgskip_dma32 0
+pgskip_normal 66765
+pgskip_movable 0
+pgfree 43847219
+pgactivate 4390552
+pgdeactivate 2635771
+pglazyfree 0
+pgfault 3402199
+pgmajfault 84171
+pglazyfreed 0
+pgrefill 2659202
+pgreuse 298914
+pgsteal_kswapd 30725111
+pgsteal_direct 2886702
+pgscan_kswapd 33793763
+pgscan_direct 4447935
+pgscan_direct_throttle 0
+pgscan_anon 5113715
+pgscan_file 33127983
+pgsteal_anon 701850
+pgsteal_file 32909963
+zone_reclaim_failed 0
+pginodesteal 0
+slabs_scanned 33668
+kswapd_inodesteal 0
+kswapd_low_wmark_hit_quickly 2531
+kswapd_high_wmark_hit_quickly 1624
+pageoutrun 6163
+pgrotated 730446
+drop_pagecache 0
+drop_slab 0
+oom_kill 0
+numa_pte_updates 0
+numa_huge_pte_updates 0
+numa_hint_faults 0
+numa_hint_faults_local 0
+numa_pages_migrated 0
+pgmigrate_success 1551642
+pgmigrate_fail 47287
+thp_migration_success 0
+thp_migration_fail 0
+thp_migration_split 0
+compact_migrate_scanned 13396913
+compact_free_scanned 24386466
+compact_isolated 3361051
+compact_stall 5834
+compact_fail 4015
+compact_success 1819
+compact_daemon_wake 505
+compact_daemon_migrate_scanned 253910
+compact_daemon_free_scanned 1758030
+htlb_buddy_alloc_success 0
+htlb_buddy_alloc_fail 0
+cma_alloc_success 0
+cma_alloc_fail 0
+unevictable_pgs_culled 13092
+unevictable_pgs_scanned 0
+unevictable_pgs_rescued 204
+unevictable_pgs_mlocked 204
+unevictable_pgs_munlocked 204
+unevictable_pgs_cleared 0
+unevictable_pgs_stranded 0
+thp_fault_alloc 5359
+thp_fault_fallback 1278
+thp_fault_fallback_charge 0
+thp_collapse_alloc 105
+thp_collapse_alloc_failed 14
+thp_file_alloc 0
+thp_file_fallback 0
+thp_file_fallback_charge 0
+thp_file_mapped 0
+thp_split_page 1433
+thp_split_page_failed 0
+thp_deferred_split_page 1719
+thp_split_pmd 1995
+thp_split_pud 0
+thp_zero_page_alloc 1
+thp_zero_page_alloc_failed 0
+thp_swpout 0
+thp_swpout_fallback 1433
+balloon_inflate 0
+balloon_deflate 0
+balloon_migrate 0
+swap_ra 429016
+swap_ra_hit 424294
+direct_map_level2_splits 119
+direct_map_level3_splits 7
+nr_unstable 0
+file end :: /proc/zoneinfo
+Node 0, zone      DMA
+  per-node stats
+      nr_inactive_anon 590193
+      nr_active_anon 2571393
+      nr_inactive_file 593409
+      nr_active_file 66518
+      nr_unevictable 0
+      nr_slab_reclaimable 53768
+      nr_slab_unreclaimable 37882
+      nr_isolated_anon 0
+      nr_isolated_file 0
+      workingset_nodes 276389
+      workingset_refault_anon 511845
+      workingset_refault_file 13247522
+      workingset_activate_anon 416870
+      workingset_activate_file 824015
+      workingset_restore_anon 9754
+      workingset_restore_file 35860
+      workingset_nodereclaim 13956
+      nr_anon_pages 3148063
+      nr_mapped    7901
+      nr_file_pages 684173
+      nr_dirty     44061
+      nr_writeback 0
+      nr_writeback_temp 0
+      nr_shmem     1668
+      nr_shmem_hugepages 0
+      nr_shmem_pmdmapped 0
+      nr_file_hugepages 0
+      nr_file_pmdmapped 0
+      nr_anon_transparent_hugepages 3655
+      nr_vmscan_write 850819
+      nr_vmscan_immediate_reclaim 26227
+      nr_dirtied   18824256
+      nr_written   19629787
+      nr_kernel_misc_reclaimable 0
+      nr_foll_pin_acquired 0
+      nr_foll_pin_released 0
+      nr_kernel_stack 8960
+      nr_page_table_pages 9882
+      nr_swapcached 22540
+  pages free     3328
+        min      15
+        low      18
+        high     21
+        spanned  4095
+        present  3998
+        managed  3840
+        cma      0
+        protection: (0, 2187, 15908, 15908, 15908)
+      nr_free_pages 3328
+      nr_zone_inactive_anon 0
+      nr_zone_active_anon 0
+      nr_zone_inactive_file 0
+      nr_zone_active_file 0
+      nr_zone_unevictable 0
+      nr_zone_write_pending 0
+      nr_mlock     0
+      nr_bounce    0
+      nr_zspages   0
+      nr_free_cma  0
+      numa_hit     1
+      numa_miss    0
+      numa_foreign 0
+      numa_interleave 1
+      numa_local   1
+      numa_other   0
+  pagesets
+    cpu: 0
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+    cpu: 1
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+    cpu: 2
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+    cpu: 3
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+    cpu: 4
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+    cpu: 5
+              count: 0
+              high:  4
+              batch: 1
+  vm stats threshold: 6
+  node_unreclaimable:  0
+  start_pfn:           1
+Node 0, zone    DMA32
+  pages free     18714
+        min      2296
+        low      2870
+        high     3444
+        spanned  1044480
+        present  576603
+        managed  560101
+        cma      0
+        protection: (0, 0, 13720, 13720, 13720)
+      nr_free_pages 18714
+      nr_zone_inactive_anon 61031
+      nr_zone_active_anon 392610
+      nr_zone_inactive_file 72145
+      nr_zone_active_file 6079
+      nr_zone_unevictable 0
+      nr_zone_write_pending 7196
+      nr_mlock     0
+      nr_bounce    0
+      nr_zspages   0
+      nr_free_cma  0
+      numa_hit     4945309
+      numa_miss    0
+      numa_foreign 0
+      numa_interleave 1
+      numa_local   4945309
+      numa_other   0
+  pagesets
+    cpu: 0
+              count: 207
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+    cpu: 1
+              count: 227
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+    cpu: 2
+              count: 234
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+    cpu: 3
+              count: 82
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+    cpu: 4
+              count: 263
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+    cpu: 5
+              count: 391
+              high:  478
+              batch: 63
+  vm stats threshold: 36
+  node_unreclaimable:  0
+  start_pfn:           4096
+Node 0, zone   Normal
+  pages free     21010
+        min      14583
+        low      18228
+        high     21873
+        spanned  3596288
+        present  3596288
+        managed  3512572
+        cma      0
+        protection: (0, 0, 0, 0, 0)
+      nr_free_pages 21010
+      nr_zone_inactive_anon 529162
+      nr_zone_active_anon 2178783
+      nr_zone_inactive_file 521264
+      nr_zone_active_file 60439
+      nr_zone_unevictable 0
+      nr_zone_write_pending 36865
+      nr_mlock     0
+      nr_bounce    0
+      nr_zspages   0
+      nr_free_cma  0
+      numa_hit     34340513
+      numa_miss    0
+      numa_foreign 0
+      numa_interleave 2482
+      numa_local   34340513
+      numa_other   0
+  pagesets
+    cpu: 0
+              count: 212
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+    cpu: 1
+              count: 191
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+    cpu: 2
+              count: 837
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+    cpu: 3
+              count: 258
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+    cpu: 4
+              count: 2439
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+    cpu: 5
+              count: 417
+              high:  3038
+              batch: 63
+  vm stats threshold: 48
+  node_unreclaimable:  0
+  start_pfn:           1048576
+Node 0, zone  Movable
+  pages free     0
+        min      0
+        low      0
+        high     0
+        spanned  0
+        present  0
+        managed  0
+        cma      0
+        protection: (0, 0, 0, 0, 0)
+Node 0, zone   Device
+  pages free     0
+        min      0
+        low      0
+        high     0
+        spanned  0
+        present  0
+        managed  0
+        cma      0
+        protection: (0, 0, 0, 0, 0)
+file end :: /proc/meminfo
+MemTotal:       16306052 kB
+MemFree:          172208 kB
+MemAvailable:    2686552 kB
+Buffers:              12 kB
+Cached:          2646520 kB
+SwapCached:        90160 kB
+Active:         10551644 kB
+Inactive:        4734408 kB
+Active(anon):   10285572 kB
+Inactive(anon):  2360772 kB
+Active(file):     266072 kB
+Inactive(file):  2373636 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:      415128572 kB
+SwapFree:       414276696 kB
+Dirty:            176244 kB
+Writeback:             0 kB
+AnonPages:      12592252 kB
+Mapped:            31604 kB
+Shmem:              6672 kB
+KReclaimable:     215072 kB
+Slab:             366600 kB
+SReclaimable:     215072 kB
+SUnreclaim:       151528 kB
+KernelStack:        8960 kB
+PageTables:        39528 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    423281596 kB
+Committed_AS:   16978152 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      149084 kB
+VmallocChunk:          0 kB
+Percpu:             4416 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:   7485440 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      268652 kB
+DirectMap2M:    10147840 kB
+DirectMap1G:     6291456 kB
+file end :: /proc/schedstat
+version 15
+timestamp 4295413811
+cpu0 0 0 0 0 0 0 997880175665 39294467582 1377895
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cpu1 0 0 0 0 0 0 987354546816 37073391640 1491742
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cpu2 0 0 0 0 0 0 981218818608 34283623598 1351076
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cpu3 0 0 0 0 0 0 1003363044091 36130640379 1251628
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cpu4 0 0 0 0 0 0 982791911391 39872356401 1542191
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cpu5 0 0 0 0 0 0 953524025335 35981933834 1295205
+domain0 3f 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+file end :: /proc/diskstats
+   8       0 sda 223879 432236 123583460 11444165 114799 842794 157224826 19224558 1 1281952 30773532 0 0 0 0 1412 104808
+   8       1 sda1 38 0 304 1411 0 0 0 0 0 1424 1411 0 0 0 0 0 0
+   8       2 sda2 162 26 10758 1103 2 0 2 0 0 1016 1104 0 0 0 0 0 0
+   8       3 sda3 83844 428059 4099688 711670 12528 838291 6806552 1637223 0 368008 2348893 0 0 0 0 0 0
+   8       4 sda4 139671 4151 119468192 10728021 102269 4503 150418272 17587335 1 1242572 28315356 0 0 0 0 0 0
+   8      16 sdb 256 0 12694 893 0 0 0 0 0 696 893 0 0 0 0 0 0
+   8      17 sdb1 58 0 4176 226 0 0 0 0 0 208 226 0 0 0 0 0 0
+   8      18 sdb2 58 0 4176 253 0 0 0 0 0 204 253 0 0 0 0 0 0
+test end :: 1635455307

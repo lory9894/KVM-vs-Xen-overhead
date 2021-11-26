@@ -1,0 +1,8 @@
+export MMTESTS_HOST_IP="192.168.122.1"
+export AUTO_PACKAGE_INSTALL="yes"
+
+# List of VMs inside which to run the tests
+# (if not specified via command line)
+export MMTESTS_VMS="opensusetumbleweed"
+
+

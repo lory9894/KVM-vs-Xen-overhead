@@ -1,0 +1,4 @@
+Runtime options
+Run: sysbench --test=cpu --num-threads=1 --test=cpu --cpu-max-prime=25000 run
+Run: sysbench --test=cpu --num-threads=3 --test=cpu --cpu-max-prime=25000 run
+Run: sysbench --test=cpu --num-threads=4 --test=cpu --cpu-max-prime=25000 run

@@ -1,0 +1,9 @@
+0,thread,BASELINE,XENTRACE,XENTRACE_ALL
+Min,sample-anycpu,5,0,5
+Amean,sample-anycpu,13.152,0,15.0206994944087
+Stddev,sample-anycpu,13.2909,0,16.1494933090582
+CoeffVar,sample-anycpu,98.5303,0,107.514921758935
+Max,sample-anycpu,2519.67,0,2544
+BAmean-50,sample-anycpu,7.95512,0,7.9762396039934
+BAmean-95,sample-anycpu,11.3157,0,12.7102513112061
+BAmean-99,sample-anycpu,12.5337,0,14.3791617879411

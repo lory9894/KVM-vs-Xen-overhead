@@ -1,0 +1,10 @@
+                                  CYCLICNONE_1           CYCLICNONE_2           CYCLICNONE_3    CYCLICNONE_XENTRACECYCLICNONE_XENTRACE_ALL
+                                      opensuse               opensuse               opensuse               opensuse               opensuse
+Min       sample-anycpu        5.00 (   0.00%)        5.00 (   0.00%)        5.00 (   0.00%)        5.00 (   0.00%)        6.00 ( -20.00%)
+Amean     sample-anycpu        8.66 (   0.00%)        8.61 *   0.65%*        8.78 *  -1.29%*        9.68 * -11.68%*       10.54 * -21.66%*
+Stddev    sample-anycpu        7.60 (   0.00%)        4.62 (  39.17%)       10.92 ( -43.70%)       14.76 ( -94.21%)       18.23 (-139.82%)
+CoeffVar  sample-anycpu       87.72 (   0.00%)       53.71 (  38.77%)      124.45 ( -41.87%)      152.55 ( -73.90%)      172.91 ( -97.12%)
+Max       sample-anycpu     2455.00 (   0.00%)     2914.00 ( -18.70%)     2440.00 (   0.61%)     8613.00 (-250.84%)     3942.00 ( -60.57%)
+BAmean-50 sample-anycpu        7.84 (   0.00%)        7.85 (  -0.12%)        7.81 (   0.42%)        8.22 (  -4.84%)        8.14 (  -3.75%)
+BAmean-95 sample-anycpu        8.00 (   0.00%)        8.00 (  -0.03%)        7.98 (   0.19%)        8.81 ( -10.16%)        9.11 ( -13.91%)
+BAmean-99 sample-anycpu        8.30 (   0.00%)        8.32 (  -0.18%)        8.32 (  -0.16%)        9.08 (  -9.40%)        9.55 ( -15.08%)

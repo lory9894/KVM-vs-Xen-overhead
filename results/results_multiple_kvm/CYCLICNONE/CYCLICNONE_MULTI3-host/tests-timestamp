@@ -1,0 +1,38 @@
+start :: 1632744722
+VMs up :: 1632744804
+vms ready :: 1632744804
+test begin :: 1632744807
+recvd token :: "mmtests_start" 1632744810
+enter state :: "mmtests_start" 1632744810
+recvd token :: "mmtests_start" 1632744810
+recvd token :: "mmtests_start" 1632744810
+sent token :: "mmtests_start" 1632744810
+recvd token :: "test_do" 1632744816
+enter state :: "test_do" 1632744816
+recvd token :: "test_do" 1632744817
+recvd token :: "test_do" 1632744817
+sent token :: "test_do" 1632744817
+recvd token :: "test_done" 1632745442
+enter state :: "test_done" 1632745442
+recvd token :: "test_done" 1632745442
+recvd token :: "test_done" 1632745442
+sent token :: "test_done" 1632745442
+recvd token :: "test_do" 1632745444
+enter state :: "test_do" 1632745444
+recvd token :: "test_do" 1632745444
+recvd token :: "test_do" 1632745444
+sent token :: "test_do" 1632745444
+recvd token :: "test_done" 1632746069
+enter state :: "test_done" 1632746069
+recvd token :: "test_done" 1632746070
+recvd token :: "test_done" 1632746070
+sent token :: "test_done" 1632746070
+recvd token :: "mmtests_end" 1632746070
+enter state :: "mmtests_end" 1632746070
+recvd token :: "mmtests_end" 1632746070
+recvd token :: "mmtests_end" 1632746070
+sent token :: "mmtests_end" 1632746070
+test end :: 1632746070
+VMs down :: 1632746092
+finish :: 1632746092
+status :: 0

@@ -1,0 +1,6 @@
+start :: 1632746734
+test begin :: sysbenchthread 1632746747
+test end :: sysbenchthread 1632746899
+time :: sysbenchthread 78.95 user 52.24 system 148.56 elapsed
+finish :: 1632746899
+status :: 0

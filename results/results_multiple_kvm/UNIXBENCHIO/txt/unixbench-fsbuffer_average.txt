@@ -1,0 +1,17 @@
+0 thread BASELINE FTRACE_HOST FTRACEALL_HOST
+Min unixbench-fsbuffer-1 78436.7 77875.8 77937.2
+Min unixbench-fsbuffer-4 82032.4 63762.6 62631.2
+Hmean unixbench-fsbuffer-1 78695.5 78276.7 78166.1
+Hmean unixbench-fsbuffer-4 83050.3 65462.7 63775.3
+Stddev unixbench-fsbuffer-1 296.461 416.473 230.117
+Stddev unixbench-fsbuffer-4 1253.74 2216.27 1057.7
+CoeffVar unixbench-fsbuffer-1 0.376806 0.5323 0.296386
+CoeffVar unixbench-fsbuffer-4 1.51688 3.40107 1.63764
+Max unixbench-fsbuffer-1 79018.8 78699.6 78389.9
+Max unixbench-fsbuffer-4 84246 67888.7 64632.2
+BHmean-50 unixbench-fsbuffer-1 79018.8 78699.6 78389.9
+BHmean-50 unixbench-fsbuffer-4 84246 67888.7 64632.2
+BHmean-95 unixbench-fsbuffer-1 78825.6 78478.8 78281.3
+BHmean-95 unixbench-fsbuffer-4 83572.5 66349.9 64372.1
+BHmean-99 unixbench-fsbuffer-1 78825.6 78478.8 78281.3
+BHmean-99 unixbench-fsbuffer-4 83572.5 66349.9 64372.1

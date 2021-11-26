@@ -1,0 +1,5 @@
+1630054647 run-kvm: Booting VMs
+1630054728 run-kvm: VM opensusetumbleweed IP 192.168.122.15
+1630054732 run-kvm: begin run-mmtests in VMs
+1630061849 run-kvm: run-mmtests in VMs end
+1630061849 run-kvm: Shutoff VMs

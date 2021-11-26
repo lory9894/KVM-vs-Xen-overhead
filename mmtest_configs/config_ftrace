@@ -1,0 +1,7 @@
+# List of monitors
+export RUN_MONITOR=yes
+export MONITORS_GZIP="ftrace"
+export MONITOR_FTRACE_EVENTS="sched irq kvm/kvm_entry kvm/kvm_exit"
+export MONITORS_ALWAYS=""
+export MONITORS_WITH_LATENCY=""
+export MONITORS_TRACER=""

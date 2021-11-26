@@ -1,0 +1,5 @@
+1634990756 run-kvm: Start
+1634990756 run-kvm: Booting VMs
+1634990850 run-kvm: VM clone-1 IP 192.168.122.11
+1634990850 run-kvm: VM clone-2 IP 192.168.122.12
+1634990850 run-kvm: VM clone-3 IP 192.168.122.13

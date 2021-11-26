@@ -1,0 +1,16 @@
+start :: 1632517059
+VMs up :: 1632517141
+vms ready :: 1632517141
+test begin :: 1632517659
+recvd token :: "mmtests_start" 1632517667
+sent token :: "mmtests_start" 1632517667
+recvd token :: "test_do" 1632517689
+sent token :: "test_do" 1632517689
+recvd token :: "test_done" 1632518350
+sent token :: "test_done" 1632518351
+recvd token :: "mmtests_end" 1632518351
+sent token :: "mmtests_end" 1632518351
+test end :: 1632518358
+VMs down :: 1632518381
+finish :: 1632518381
+status :: 0

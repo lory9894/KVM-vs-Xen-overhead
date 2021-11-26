@@ -1,0 +1,6 @@
+start :: 1632990922
+test begin :: sysbenchcpu 1632990937
+test end :: sysbenchcpu 1632991399
+time :: sysbenchcpu 663.44 user 0.26 system 458.95 elapsed
+finish :: 1632991399
+status :: 0

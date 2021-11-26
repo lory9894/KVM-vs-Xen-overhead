@@ -1,0 +1,29 @@
+sysbench 0.4.12.10:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+Random number generator seed is 0 and will be ignored
+
+
+Doing CPU performance benchmark
+
+Primer numbers limit: 25000
+
+Threads started!
+Done.
+
+
+General statistics:
+    total time:                          16.2631s
+    total number of events:              10000
+    total time taken by event execution: 65.0252
+    response time:
+         min:                                  3.14ms
+         avg:                                  6.50ms
+         max:                                 39.83ms
+         approx.  95 percentile:              11.28ms
+
+Threads fairness:
+    events (avg/stddev):           2500.0000/14.12
+    execution time (avg/stddev):   16.2563/0.00
+

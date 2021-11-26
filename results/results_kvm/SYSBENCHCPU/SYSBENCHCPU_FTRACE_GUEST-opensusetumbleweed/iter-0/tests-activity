@@ -1,0 +1,42 @@
+1635421166 run-mmtests: Start
+1635421166 run-mmtests: Iteration 0 start
+1635421166 sysbenchcpu-bench: source-install
+1635421183 sysbenchcpu-bench: source-installed
+1635421183 run-mmtests: begin sysbenchcpu
+1635421184 sysbenchcpu-bench: iteration 1
+1635421221 sysbenchcpu-bench: iteration 2
+1635421259 sysbenchcpu-bench: iteration 3
+1635421297 sysbenchcpu-bench: iteration 4
+1635421333 sysbenchcpu-bench: iteration 5
+1635421369 sysbenchcpu-bench: iteration 6
+1635421403 sysbenchcpu-bench: iteration 7
+1635421440 sysbenchcpu-bench: iteration 1
+1635421455 sysbenchcpu-bench: iteration 2
+1635421471 sysbenchcpu-bench: iteration 3
+1635421486 sysbenchcpu-bench: iteration 4
+1635421501 sysbenchcpu-bench: iteration 5
+1635421517 sysbenchcpu-bench: iteration 6
+1635421532 sysbenchcpu-bench: iteration 7
+1635421547 sysbenchcpu-bench: iteration 1
+1635421560 sysbenchcpu-bench: iteration 2
+1635421573 sysbenchcpu-bench: iteration 3
+1635421585 sysbenchcpu-bench: iteration 4
+1635421598 sysbenchcpu-bench: iteration 5
+1635421611 sysbenchcpu-bench: iteration 6
+1635421623 sysbenchcpu-bench: iteration 7
+1635421636 sysbenchcpu-bench: iteration 1
+1635421649 sysbenchcpu-bench: iteration 2
+1635421661 sysbenchcpu-bench: iteration 3
+1635421673 sysbenchcpu-bench: iteration 4
+1635421685 sysbenchcpu-bench: iteration 5
+1635421698 sysbenchcpu-bench: iteration 6
+1635421710 sysbenchcpu-bench: iteration 7
+1635421724 sysbenchcpu-bench: iteration 1
+1635421736 sysbenchcpu-bench: iteration 2
+1635421748 sysbenchcpu-bench: iteration 3
+1635421760 sysbenchcpu-bench: iteration 4
+1635421772 sysbenchcpu-bench: iteration 5
+1635421783 sysbenchcpu-bench: iteration 6
+1635421795 sysbenchcpu-bench: iteration 7
+1635422033 run-mmtests: Iteration 0 end
+1635422033 run-mmtests: End

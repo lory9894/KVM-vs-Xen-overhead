@@ -1,0 +1,2 @@
+o  ACTIVE  nr:5 controllers:pids : /sys/fs/cgroup/user.slice/user-0.slice/session-6.scope/cgroup.procs
+o inactive nr:2 controllers:pids : /sys/fs/cgroup/user.slice/user-0.slice/user@0.service/init.scope/cgroup.procs

@@ -1,0 +1,28 @@
+1635440796 run-mmtests: Start
+1635440796 run-mmtests: Iteration 0 start
+1635440801 sysbenchcpu-bench: source-install
+1635440822 sysbenchcpu-bench: source-installed
+1635440822 run-mmtests: begin sysbenchcpu
+1635440825 sysbenchcpu-bench: iteration 1
+1635440888 sysbenchcpu-bench: iteration 2
+1635440934 sysbenchcpu-bench: iteration 3
+1635440984 sysbenchcpu-bench: iteration 4
+1635441034 sysbenchcpu-bench: iteration 5
+1635441078 sysbenchcpu-bench: iteration 6
+1635441125 sysbenchcpu-bench: iteration 7
+1635441174 sysbenchcpu-bench: iteration 1
+1635441208 sysbenchcpu-bench: iteration 2
+1635441240 sysbenchcpu-bench: iteration 3
+1635441268 sysbenchcpu-bench: iteration 4
+1635441299 sysbenchcpu-bench: iteration 5
+1635441331 sysbenchcpu-bench: iteration 6
+1635441368 sysbenchcpu-bench: iteration 7
+1635441413 sysbenchcpu-bench: iteration 1
+1635441442 sysbenchcpu-bench: iteration 2
+1635441472 sysbenchcpu-bench: iteration 3
+1635441500 sysbenchcpu-bench: iteration 4
+1635441528 sysbenchcpu-bench: iteration 5
+1635441556 sysbenchcpu-bench: iteration 6
+1635441584 sysbenchcpu-bench: iteration 7
+1635442140 run-mmtests: Iteration 0 end
+1635442140 run-mmtests: End

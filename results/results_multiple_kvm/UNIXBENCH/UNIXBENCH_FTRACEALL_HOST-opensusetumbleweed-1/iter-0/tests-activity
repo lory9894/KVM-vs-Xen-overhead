@@ -1,0 +1,51 @@
+1632909528 run-mmtests: Start
+1632909528 run-mmtests: Iteration 0 start
+1632909529 unixbench-bench: source-install
+1632909531 unixbench-bench: source-installed
+1632909531 run-mmtests: begin unixbench-dhry2reg
+1632909534 unixbench-bench: dhry2reg-1
+1632909534 unixbench-bench: iteration 1
+1632909673 unixbench-bench: iteration 2
+1632909809 unixbench-bench: iteration 3
+1632909945 unixbench-bench: dhry2reg-4
+1632909945 unixbench-bench: iteration 1
+1632910082 unixbench-bench: iteration 2
+1632910218 unixbench-bench: iteration 3
+1632910355 run-mmtests: begin unixbench-syscall
+1632910355 unixbench-bench: syscall-1
+1632910355 unixbench-bench: iteration 1
+1632910491 unixbench-bench: iteration 2
+1632910627 unixbench-bench: iteration 3
+1632910763 unixbench-bench: syscall-4
+1632910763 unixbench-bench: iteration 1
+1632910898 unixbench-bench: iteration 2
+1632911033 unixbench-bench: iteration 3
+1632911169 run-mmtests: begin unixbench-pipe
+1632911169 unixbench-bench: pipe-1
+1632911169 unixbench-bench: iteration 1
+1632911304 unixbench-bench: iteration 2
+1632911439 unixbench-bench: iteration 3
+1632911574 unixbench-bench: pipe-4
+1632911574 unixbench-bench: iteration 1
+1632911709 unixbench-bench: iteration 2
+1632911845 unixbench-bench: iteration 3
+1632911982 run-mmtests: begin unixbench-spawn
+1632911983 unixbench-bench: spawn-1
+1632911983 unixbench-bench: iteration 1
+1632912085 unixbench-bench: iteration 2
+1632912186 unixbench-bench: iteration 3
+1632912288 unixbench-bench: spawn-4
+1632912288 unixbench-bench: iteration 1
+1632912391 unixbench-bench: iteration 2
+1632912492 unixbench-bench: iteration 3
+1632912594 run-mmtests: begin unixbench-execl
+1632912595 unixbench-bench: execl-1
+1632912596 unixbench-bench: iteration 1
+1632912696 unixbench-bench: iteration 2
+1632912796 unixbench-bench: iteration 3
+1632912895 unixbench-bench: execl-4
+1632912895 unixbench-bench: iteration 1
+1632912995 unixbench-bench: iteration 2
+1632913097 unixbench-bench: iteration 3
+1632913197 run-mmtests: Iteration 0 end
+1632913197 run-mmtests: End

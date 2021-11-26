@@ -1,0 +1,8 @@
+# List of monitors for the host
+export RUN_MONITOR=yes
+export MONITORS_GZIP="xentrace"
+export MONITORS_XENTRACE_MASK="TRC_ALL"
+export MONITORS_ALWAYS=""
+export MONITORS_WITH_LATENCY=""
+export MONITORS_TRACER=""
+export MONITOR_PERF_EVENTS=""

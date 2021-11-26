@@ -1,0 +1,51 @@
+make all
+make[1]: Entering directory '/root/git-private/mmtests/work/sources/unixbench-5.1.3-installed'
+Checking distribution of files
+./pgms  exists
+./src  exists
+./testdir  exists
+./tmp  exists
+./results  exists
+make[1]: Leaving directory '/root/git-private/mmtests/work/sources/unixbench-5.1.3-installed'
+sh: line 1: 3dinfo: command not found
+
+   #    #  #    #  #  #    #          #####   ######  #    #   ####   #    #
+   #    #  ##   #  #   #  #           #    #  #       ##   #  #    #  #    #
+   #    #  # #  #  #    ##            #####   #####   # #  #  #       ######
+   #    #  #  # #  #    ##            #    #  #       #  # #  #       #    #
+   #    #  #   ##  #   #  #           #    #  #       #   ##  #    #  #    #
+    ####   #    #  #  #    #          #####   ######  #    #   ####   #    #
+
+   Version 5.1.3                      Based on the Byte Magazine Unix Benchmark
+
+   Multi-CPU version                  Version 5 revisions by Ian Smith,
+                                      Sunnyvale, CA, USA
+   January 13, 2011                   johantheghost at yahoo period com
+
+
+1 x Execl Throughput  1 2 3
+
+========================================================================
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: opensusetumbleweed-1: GNU/Linux
+   OS: GNU/Linux -- 5.14.14-1-default -- #1 SMP Thu Oct 21 05:05:03 UTC 2021 (2b5383f)
+   Machine: x86_64 (x86_64)
+   Language: en_US.utf8 (charmap="UTF-8", collate="UTF-8")
+   CPU 0: Intel Core Processor (Skylake, IBRS) (5616.1 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   CPU 1: Intel Core Processor (Skylake, IBRS) (5616.1 bogomips)
+          x86-64, MMX, Physical Address Ext, SYSENTER/SYSEXIT, SYSCALL/SYSRET, Intel virtualization
+   00:20:52  up   2:58,  0 users,  load average: 2.54, 2.09, 2.19; runlevel 3
+
+------------------------------------------------------------------------
+Benchmark Run: Sat Oct 30 2021 00:20:52 - 00:23:13
+2 CPUs in system; running 1 parallel copy of tests
+
+Execl Throughput                               1521.5 lps   (29.6 s, 2 samples)
+
+System Benchmarks Partial Index              BASELINE       RESULT    INDEX
+Execl Throughput                                 43.0       1521.5    353.8
+                                                                   ========
+System Benchmarks Index Score (Partial Only)                          353.8
+

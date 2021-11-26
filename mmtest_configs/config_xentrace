@@ -1,0 +1,6 @@
+# List of monitors
+export RUN_MONITOR=yes
+export MONITORS_GZIP="xentrace"
+export MONITORS_XENTRACE_MASK="0x000AF00F"
+export MONITORS_ALWAYS=""
+export MONITORS_WITH_LATENCY=""

@@ -1,0 +1,17 @@
+0,thread,BASELINE,FTRACE_HOST,FTRACEALL_HOST
+Min,unixbench-fsdisk-w-1,1.44446e+06,1.44221e+06,1.43174e+06
+Min,unixbench-fsdisk-w-4,1.18781e+06,908678,897275
+Hmean,unixbench-fsdisk-w-1,1.44924e+06,1.45216e+06,1.43988e+06
+Hmean,unixbench-fsdisk-w-4,1.20155e+06,921663,923912
+Stddev,unixbench-fsdisk-w-1,4932.57,10163.8,7606.13
+Stddev,unixbench-fsdisk-w-4,13023.6,12500.7,23604.5
+CoeffVar,unixbench-fsdisk-w-1,0.340782,0.700301,0.527527
+CoeffVar,unixbench-fsdisk-w-4,1.07873,1.35676,2.55504
+Max,unixbench-fsdisk-w-1,1.45426e+06,1.46113e+06,1.44675e+06
+Max,unixbench-fsdisk-w-4,1.21311e+06,933336,938710
+BHmean-50,unixbench-fsdisk-w-1,1.45426e+06,1.46113e+06,1.44675e+06
+BHmean-50,unixbench-fsdisk-w-4,1.21311e+06,933336,938710
+BHmean-95,unixbench-fsdisk-w-1,1.45164e+06,1.4572e+06,1.44399e+06
+BHmean-95,unixbench-fsdisk-w-4,1.20858e+06,928298,938066
+BHmean-99,unixbench-fsdisk-w-1,1.45164e+06,1.4572e+06,1.44399e+06
+BHmean-99,unixbench-fsdisk-w-4,1.20858e+06,928298,938066

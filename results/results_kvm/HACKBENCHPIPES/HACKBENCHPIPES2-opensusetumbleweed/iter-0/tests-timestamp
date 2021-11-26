@@ -1,0 +1,6 @@
+start :: 1630092801
+test begin :: hackbench-process-pipes 1630092875
+test end :: hackbench-process-pipes 1630094919
+time :: hackbench-process-pipes 2949.71 user 4733.00 system 2040.39 elapsed
+finish :: 1630094919
+status :: 0
